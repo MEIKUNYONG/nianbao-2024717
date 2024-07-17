@@ -10,7 +10,8 @@
 			console.log('App Hide')
 		},
 		globalData: {
-			url: 'https://tieie.xyaa.vip/',
+			url: 'https://chuangtai.hellomky.cn/',
+			// url: 'https://tieie.xyaa.vip/',
 			//url: 'https://ss.xyaa.vip/',
 			// url: 'https://nianbao.2751.cn/',
 			isLogin: false, //是否登录

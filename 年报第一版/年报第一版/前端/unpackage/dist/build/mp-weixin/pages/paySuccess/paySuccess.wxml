@@ -1,1 +1,0 @@
-<view><image class="img" src="/static/img/success.png" mode="widthFix"></image><view class="text">支付成功</view><view data-event-opts="{{[['tap',[['toOrder',['$event']]]]]}}" class="btn" bindtap="__e">查看详情</view></view>

@@ -1,6 +1,0 @@
-[2024-04-16T00:29:55+08:00][sql] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=n46_xyaa_vip;charset=utf8
-[2024-04-16T00:29:55+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000567s ]
-[2024-04-16T00:29:55+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000367s ]
-[2024-04-16T01:19:17+08:00][sql] CONNECT:[ UseTime:0.000422s ] mysql:host=127.0.0.1;port=3306;dbname=n46_xyaa_vip;charset=utf8
-[2024-04-16T01:19:17+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000620s ]
-[2024-04-16T01:19:17+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000485s ]

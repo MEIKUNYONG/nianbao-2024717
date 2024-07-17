@@ -1,9 +1,0 @@
-[2024-04-06T22:09:07+08:00][sql] CONNECT:[ UseTime:0.000496s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
-[2024-04-06T22:09:07+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000937s ]
-[2024-04-06T22:09:07+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000490s ]
-[2024-04-06T22:10:36+08:00][sql] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
-[2024-04-06T22:10:36+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000604s ]
-[2024-04-06T22:10:36+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000306s ]
-[2024-04-06T22:38:54+08:00][sql] CONNECT:[ UseTime:0.000501s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
-[2024-04-06T22:38:54+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000586s ]
-[2024-04-06T22:38:54+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000338s ]

@@ -14,6 +14,32 @@
 		</view>
 		<view class="topText">快速代报 省时省力</view>
 
+		<!-- 登录 -->
+		<view class="myLogo">
+			<!-- 未登录 -->
+			<view class="row1">
+				<view class="v1 flex">
+					<image src="/static/img/user.png" mode="widthFix" class="img"></image>
+					<view class="text">
+						未登录
+					</view>
+				</view>
+			</view>
+		</view>
+		<!-- 特别提醒 -->
+		<view class="SpecialReminder">
+			<view class="row1 flex">
+				<image src="/static/img/star.png" mode="widthFix" class="img"></image>
+				<view class="text">
+					特别提醒
+				</view>
+				<image src="/static/img/star.png" mode="widthFix" class="img"></image>
+			</view>
+			<view class="row2">
+				企业年报通是中国中小企业协会信服委认定的，为经营主体提供年报代报和经营异常移出服务的平台，由上海凭安征信服务有限公司运营，收取代办服务费如办理不成功全额退款。您也可通过线下所属市监局或线上国家企业信用信息公示系统免费办理。
+			</view>
+		</view>
+
 		<view class="pane head" v-if="!isLogin && isTmp == 0">
 			<view class="top" @click="toLogin">
 				<i class="iconfont icon-gerenzhongxin4"></i>
@@ -148,7 +174,8 @@
 			<text>国家企业信用信息公示系统 官方地址:http://www.gsxt.gov.cn/index</text>
 		</view>
 		<view class="service">
-			<image @click="makeCall" src="/static/img/lx.jpg" mode="widthFix" style="width: 100%; border-radius: 10rpx;"></image>
+			<image @click="makeCall" src="/static/img/lx.jpg" mode="widthFix" style="width: 100%; border-radius: 10rpx;">
+			</image>
 			<!-- <i class="iconfont icon-kefu"></i> -->
 			<!-- <view class="rights">
 				<view class="titles"  @click="makeCall">联系我们</view>
@@ -240,7 +267,7 @@
 				mobile: '',
 				isTmp: 0, //是否启用模板（1是开启，0是不开启）
 				isYc: 0, //是否启用异常（1是开启，0是不开启）
-				telephone:'',
+				telephone: '',
 			}
 		},
 		onLoad() {
@@ -282,7 +309,7 @@
 			makeCall() {
 				//console.log('658487');
 				uni.makePhoneCall({
-					phoneNumber:this.telephone,
+					phoneNumber: this.telephone,
 					success: function() {
 						console.log('拨打电话成功');
 					},
@@ -630,7 +657,64 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
+	.flex {
+		display: flex;
+	}
+
+	.myLogo{
+		.row1{
+			padding: 26rpx;
+			background-color: #ffffff;
+			width: 700rpx;
+			margin: 0 auto;
+			border-radius: 20rpx;
+			box-sizing: border-box;
+			.v1{
+				align-items: center;
+				.img{
+					width: 50rpx;
+				}
+				.text{
+					font-size: 46rpx;
+					// font-weight: bold;
+					margin-left: 20rpx;
+				}
+			}
+		}
+	}
+
+	.SpecialReminder {
+		padding: 26rpx;
+		background-color: #ffffff;
+		width: 700rpx;
+		margin: 0 auto;
+		border-radius: 20rpx;
+		box-sizing: border-box;
+		padding-bottom: 60rpx;
+		.row1 {
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 20rpx;
+			.img {
+				width: 20rpx;
+			}
+
+			.text {
+				font-size: 32rpx;
+				font-weight: bold;
+				margin: 0 18rpx;				
+			}
+		}
+		.row2{
+			font-size: 28rpx;
+			line-height: 44rpx;
+		}
+	}
+
+
+
+
 	/**index.wxss**/
 	.bg {
 		width: 100%;

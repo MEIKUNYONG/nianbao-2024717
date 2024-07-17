@@ -10,7 +10,12 @@
 			console.log('App Hide')
 		},
 		globalData: {
+<<<<<<< HEAD
 			url: 'https://kehu.canyin.hellomky.cn/',
+=======
+			url: 'https://chuangtai.hellomky.cn/',
+			// url: 'https://tieie.xyaa.vip/',
+>>>>>>> 6ef30d41879603bac8baeba0b3beaafe5f600da5
 			//url: 'https://ss.xyaa.vip/',
 			// url: 'https://nianbao.2751.cn/',
 			isLogin: false, //是否登录

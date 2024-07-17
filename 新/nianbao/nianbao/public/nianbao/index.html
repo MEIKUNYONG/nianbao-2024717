@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<script src="js/v3.2.8/vue.global.prod.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/axios.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<div class="index">
+				<div class="title">{{title}}</div>
+				<div class="text">{{text}}</div>
+				<img :src="logo" class="logo" />
+				<div class="btn" @click="toWx">打开微信</div>
+			</div>
+		</div>
+		<script>
+			const App = {
+				data() {
+					return {
+						title: '企业年报通',
+						text: '请打开微信，访问企业年报通小程序了解年报报送',
+						logo: './img/logo.png',
+						url: 'weixin://dl/business/?t=TICKET',
+					}
+				},
+				mounted() {
+					var url = window.location.href; //获取当前url
+					var dz_url = url.split('#')[0]; //获取#/之前的字符串
+					var cs = dz_url.split('?')[1]; //获取?之后的参数字符串
+					var cs_arr = cs.split('&'); //参数字符串分割为数组
+					var cs = {};
+					for (var i = 0; i < cs_arr.length; i++) { //遍历数组，拿到json对象
+						cs[cs_arr[i].split('=')[0]] = cs_arr[i].split('=')[1]
+					}
+					this.id = cs.id;
+					console.log(cs)
+					this.getDetail(cs.mobile, cs.id)
+				},
+				methods: {
+					getDetail(mobile, id) {
+						let url = 'https://nianbao.2751.cn/api/index/geturlscheme',
+							config = {
+								headers: {
+									'uniacid': 5
+								},
+
+								data: {
+									mobile: mobile,
+									id: id,
+								}
+							};
+						axios.post(url, config)
+							.then(res => (
+								console.log(res.data.data),
+								this.title = res.data.data.title,
+								this.text = res.data.data.text,
+								this.logo = res.data.data.logo,
+								this.url = res.data.data.openlink,
+								//修改页面标题
+								document.title = this.title,
+
+								this.toWx()
+							))
+							.catch(function(error) { // 请求失败处理
+								console.log(error);
+							});
+					},
+					toWx() { //唤起微信
+						location.href = this.url
+					}
+				},
+			};
+			Vue.createApp(App).mount('#app');
+		</script>
+	</body>
+</html>

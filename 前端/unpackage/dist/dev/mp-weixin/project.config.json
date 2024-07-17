@@ -18,8 +18,8 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "3.3.5",
-  "appid": "wx3a1c2d6617cd449e",
+  "libVersion": "3.5.0",
+  "appid": "wxcb57bda9835de7e1",
   "projectname": "年报通",
   "condition": {},
   "editorSetting": {

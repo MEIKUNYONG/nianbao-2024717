@@ -1,5 +1,5 @@
 import Vue from 'vue';
-// const address = 'https://as.bdyckj.com/';
+const address = 'https://chuangtai.hellomky.cn/';
 
 //接口
 function request_all(url, data, method, fn) {

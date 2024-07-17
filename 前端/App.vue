@@ -10,7 +10,7 @@
 			console.log('App Hide')
 		},
 		globalData: {
-			url: 'https://tieie.xyaa.vip/',
+			url: 'https://kehu.canyin.hellomky.cn/',
 			//url: 'https://ss.xyaa.vip/',
 			// url: 'https://nianbao.2751.cn/',
 			isLogin: false, //是否登录

@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pages/paySuccess/paySuccess.wxss */
+page {
+	background-color: #F1F1F1;
+	text-align: center;
+}
+.img {
+	width: 198rpx;
+	margin-top: 137rpx;
+}
+.text {
+	font-size: 36rpx;
+	margin-top: 63rpx;
+}
+.btn {
+	width: 640rpx;
+	line-height: 90rpx;
+	border-radius: 50rpx;
+	margin: 118rpx auto 0 auto;
+	color: #ffffff;
+	background-color: #1B82F8;
+	font-size: 32rpx;
+}
+

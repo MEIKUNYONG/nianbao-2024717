@@ -1,0 +1,9 @@
+[2023-11-14T16:21:18+08:00][sql] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-14T16:21:18+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000644s ]
+[2023-11-14T16:21:18+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000331s ]
+[2023-11-14T22:40:19+08:00][sql] CONNECT:[ UseTime:0.000336s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-14T22:40:19+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000507s ]
+[2023-11-14T22:40:19+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000291s ]
+[2023-11-14T22:40:37+08:00][sql] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-14T22:40:37+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_admin_user` [ RunTime:0.001179s ]
+[2023-11-14T22:40:37+08:00][sql] SELECT `a`.`user_id`,`a`.`name`,a.user as username,`a`.`status`,a.role_id as user_role_ids,`b`.`role_id`,b.name as role_name,b.status as role_status,`b`.`access` FROM `nianbao_admin_user` `a` INNER JOIN `nianbao_role` `b` ON a.role_id in(b.role_id) WHERE  `a`.`user` = 'admin'  AND `a`.`pwd` = 'c4ceeb4b1fe20766657ea78a10ee3679' LIMIT 1 [ RunTime:0.000894s ]

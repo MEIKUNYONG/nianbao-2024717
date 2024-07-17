@@ -1,0 +1,61 @@
+[2023-11-12T20:53:45+08:00][sql] CONNECT:[ UseTime:0.000274s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:53:45+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000494s ]
+[2023-11-12T20:53:45+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000350s ]
+[2023-11-12T20:53:45+08:00][sql] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:53:45+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000648s ]
+[2023-11-12T20:53:45+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000327s ]
+[2023-11-12T20:53:45+08:00][sql] CONNECT:[ UseTime:0.000246s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:53:45+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000600s ]
+[2023-11-12T20:53:45+08:00][sql] SELECT * FROM `nianbao_member` WHERE  `access_token` = 'MTY5ODE0MTQ2NjIz' LIMIT 1 [ RunTime:0.000327s ]
+[2023-11-12T20:53:45+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member_enterprise` [ RunTime:0.000417s ]
+[2023-11-12T20:53:45+08:00][sql] SELECT * FROM `nianbao_member_enterprise` WHERE  `member_mobile` = '15805477078' ORDER BY `id` DESC [ RunTime:0.000320s ]
+[2023-11-12T20:53:45+08:00][sql] CONNECT:[ UseTime:0.000249s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:53:45+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000740s ]
+[2023-11-12T20:53:45+08:00][sql] SELECT * FROM `nianbao_member` WHERE  `access_token` = 'MTY5ODE0MTQ2NjIz' LIMIT 1 [ RunTime:0.000311s ]
+[2023-11-12T20:53:45+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member_enterprise` [ RunTime:0.000452s ]
+[2023-11-12T20:53:45+08:00][sql] SELECT * FROM `nianbao_member_enterprise` WHERE  `member_mobile` = '15805477078' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000297s ]
+[2023-11-12T20:53:45+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000418s ]
+[2023-11-12T20:53:45+08:00][sql] SELECT * FROM `nianbao_enterprise` WHERE  `mobile` = '15805477078' LIMIT 1 [ RunTime:0.005146s ]
+[2023-11-12T20:53:46+08:00][sql] CONNECT:[ UseTime:0.000364s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:53:46+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000493s ]
+[2023-11-12T20:53:46+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000277s ]
+[2023-11-12T20:53:46+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000574s ]
+[2023-11-12T20:53:46+08:00][sql] SELECT * FROM `nianbao_member` WHERE  `openid` = 'o3XKG6ygKOdVGc40z7G3lWrUQ704' LIMIT 1 [ RunTime:0.000358s ]
+[2023-11-12T20:53:54+08:00][sql] CONNECT:[ UseTime:0.000337s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:53:54+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000530s ]
+[2023-11-12T20:53:54+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000314s ]
+[2023-11-12T20:53:54+08:00][sql] CONNECT:[ UseTime:0.000289s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:53:54+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000482s ]
+[2023-11-12T20:53:54+08:00][sql] SELECT * FROM `nianbao_member` WHERE  `access_token` = 'MTY5ODE0MTQ2NjIz' LIMIT 1 [ RunTime:0.000289s ]
+[2023-11-12T20:53:54+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member_enterprise` [ RunTime:0.000358s ]
+[2023-11-12T20:53:54+08:00][sql] SELECT * FROM `nianbao_member_enterprise` WHERE  `member_mobile` = '15805477078' ORDER BY `id` DESC [ RunTime:0.000269s ]
+[2023-11-12T20:53:54+08:00][sql] CONNECT:[ UseTime:0.000311s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:53:54+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000420s ]
+[2023-11-12T20:53:54+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000295s ]
+[2023-11-12T20:53:54+08:00][sql] CONNECT:[ UseTime:0.000260s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:53:54+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000434s ]
+[2023-11-12T20:53:54+08:00][sql] SELECT * FROM `nianbao_member` WHERE  `access_token` = 'MTY5ODE0MTQ2NjIz' LIMIT 1 [ RunTime:0.000267s ]
+[2023-11-12T20:53:54+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member_enterprise` [ RunTime:0.000351s ]
+[2023-11-12T20:53:54+08:00][sql] SELECT * FROM `nianbao_member_enterprise` WHERE  `member_mobile` = '15805477078' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000276s ]
+[2023-11-12T20:53:54+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000347s ]
+[2023-11-12T20:53:54+08:00][sql] SELECT * FROM `nianbao_enterprise` WHERE  `mobile` = '15805477078' LIMIT 1 [ RunTime:0.004976s ]
+[2023-11-12T20:53:55+08:00][sql] CONNECT:[ UseTime:0.000369s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:53:55+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000503s ]
+[2023-11-12T20:53:55+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000267s ]
+[2023-11-12T20:53:55+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000561s ]
+[2023-11-12T20:53:55+08:00][sql] SELECT * FROM `nianbao_member` WHERE  `openid` = 'o3XKG6ygKOdVGc40z7G3lWrUQ704' LIMIT 1 [ RunTime:0.000302s ]
+[2023-11-12T20:54:29+08:00][sql] CONNECT:[ UseTime:0.000251s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:54:29+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000377s ]
+[2023-11-12T20:54:29+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000270s ]
+[2023-11-12T20:54:29+08:00][sql] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:54:29+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000549s ]
+[2023-11-12T20:54:29+08:00][sql] SELECT * FROM `nianbao_member` WHERE  `access_token` = 'MTY5ODE0MTQ2NjIz' LIMIT 1 [ RunTime:0.000366s ]
+[2023-11-12T20:54:29+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member_enterprise` [ RunTime:0.000460s ]
+[2023-11-12T20:54:29+08:00][sql] SELECT * FROM `nianbao_member_enterprise` WHERE  `member_mobile` = '15805477078' ORDER BY `id` DESC [ RunTime:0.000293s ]
+[2023-11-12T20:54:29+08:00][sql] CONNECT:[ UseTime:0.000270s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-12T20:54:29+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000493s ]
+[2023-11-12T20:54:29+08:00][sql] SELECT * FROM `nianbao_member` WHERE  `access_token` = 'MTY5ODE0MTQ2NjIz' LIMIT 1 [ RunTime:0.000316s ]
+[2023-11-12T20:54:29+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member_enterprise` [ RunTime:0.000447s ]
+[2023-11-12T20:54:29+08:00][sql] SELECT * FROM `nianbao_member_enterprise` WHERE  `member_mobile` = '15805477078' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000298s ]
+[2023-11-12T20:54:29+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000539s ]
+[2023-11-12T20:54:29+08:00][sql] SELECT * FROM `nianbao_enterprise` WHERE  `mobile` = '15805477078' LIMIT 1 [ RunTime:0.005149s ]

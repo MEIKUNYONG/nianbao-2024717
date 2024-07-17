@@ -1,0 +1,445 @@
+[2024-04-05T00:19:59+08:00][sql] CONNECT:[ UseTime:0.000488s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T00:19:59+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000572s ]
+[2024-04-05T00:19:59+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000313s ]
+[2024-04-05T00:20:05+08:00][sql] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T00:20:05+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_admin_user` [ RunTime:0.000620s ]
+[2024-04-05T00:20:05+08:00][sql] SELECT `a`.`user_id`,`a`.`name`,a.user as username,`a`.`status`,a.role_id as user_role_ids,`b`.`role_id`,b.name as role_name,b.status as role_status,`b`.`access` FROM `nianbao_admin_user` `a` INNER JOIN `nianbao_role` `b` ON a.role_id in(b.role_id) WHERE  `a`.`user` = 'admin'  AND `a`.`pwd` = '3c1567f3614661076dde95e296df4f9a' LIMIT 1 [ RunTime:0.000438s ]
+[2024-04-05T00:20:05+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_log` [ RunTime:0.000475s ]
+[2024-04-05T00:20:05+08:00][sql] INSERT INTO `nianbao_log` SET `application_name` = 'admin' , `username` = 'admin' , `url` = 'https://tieie.xyaa.vip/admin/Login/index.html' , `ip` = '140.250.226.96' , `useragent` = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36  115Browser/26.0.5.3' , `create_time` = 1712247605 , `type` = 1 [ RunTime:0.007235s ]
+[2024-04-05T00:20:06+08:00][sql] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T00:20:06+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_node` [ RunTime:0.000728s ]
+[2024-04-05T00:20:06+08:00][sql] SELECT `node_id`,`pid`,`title`,`status`,`icon`,`sortid`,`path` FROM `nianbao_node` WHERE  `status` = 1  AND `type` = 1 ORDER BY `sortid` ASC [ RunTime:0.000443s ]
+[2024-04-05T00:20:08+08:00][sql] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T00:20:08+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.010579s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-01 00:00:00' AND '2024-04-01 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000349s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-02 00:00:00' AND '2024-04-02 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000221s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-03 00:00:00' AND '2024-04-03 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000243s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-04 00:00:00' AND '2024-04-04 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-05 00:00:00' AND '2024-04-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000298s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-06 00:00:00' AND '2024-04-06 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000289s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-07 00:00:00' AND '2024-04-07 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000227s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-08 00:00:00' AND '2024-04-08 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000204s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-09 00:00:00' AND '2024-04-09 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-10 00:00:00' AND '2024-04-10 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-11 00:00:00' AND '2024-04-11 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000213s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-12 00:00:00' AND '2024-04-12 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-13 00:00:00' AND '2024-04-13 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-14 00:00:00' AND '2024-04-14 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000207s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-15 00:00:00' AND '2024-04-15 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000216s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-16 00:00:00' AND '2024-04-16 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000205s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-17 00:00:00' AND '2024-04-17 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-18 00:00:00' AND '2024-04-18 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-19 00:00:00' AND '2024-04-19 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000213s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-20 00:00:00' AND '2024-04-20 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-21 00:00:00' AND '2024-04-21 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000203s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-22 00:00:00' AND '2024-04-22 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000179s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-23 00:00:00' AND '2024-04-23 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000275s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-24 00:00:00' AND '2024-04-24 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000270s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-25 00:00:00' AND '2024-04-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000257s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-26 00:00:00' AND '2024-04-26 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-27 00:00:00' AND '2024-04-27 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000241s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-28 00:00:00' AND '2024-04-28 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-29 00:00:00' AND '2024-04-29 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000200s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-30 00:00:00' AND '2024-04-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2024-04-05T00:20:08+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000519s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2024-04-01 00:00:00' AND '2024-04-30 23:59:59'  LIMIT 1 [ RunTime:0.000220s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-01 00:00:00' AND '2024-04-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000205s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-01 00:00:00' AND '2024-04-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `refund_time` BETWEEN '2024-04-01 00:00:00' AND '2024-04-30 23:59:59'   AND `is_pay` = 1  AND `is_refund` = '1' LIMIT 1 [ RunTime:0.000232s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2024-04-05 00:00:00' AND '2024-04-05 23:59:59'  LIMIT 1 [ RunTime:0.000204s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-05 00:00:00' AND '2024-04-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000242s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-05 00:00:00' AND '2024-04-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000341s ]
+[2024-04-05T00:20:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `refund_time` BETWEEN '2024-04-05 00:00:00' AND '2024-04-05 23:59:59'   AND `is_pay` = 1  AND `is_refund` = '1' LIMIT 1 [ RunTime:0.000295s ]
+[2024-04-05T00:20:11+08:00][sql] CONNECT:[ UseTime:0.000512s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T00:20:11+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000584s ]
+[2024-04-05T00:20:11+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000315s ]
+[2024-04-05T00:21:19+08:00][sql] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T00:21:19+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000541s ]
+[2024-04-05T00:21:19+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000341s ]
+[2024-04-05T00:21:19+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000342s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '个体年报'  WHERE  `name` = 'site_title' [ RunTime:0.008784s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea2f989956.jpg'  WHERE  `name` = 'logo' [ RunTime:0.004983s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'keyword' [ RunTime:0.005915s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '企业年报'  WHERE  `name` = 'descrip' [ RunTime:0.006030s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '版权'  WHERE  `name` = 'copyright' [ RunTime:0.007281s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '100'  WHERE  `name` = 'filesize' [ RunTime:0.011004s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'gif,png,jpg,jpeg,doc,docx,xls,xlsx,csv,pdf,rar,zip,txt,mp4,flv,wgt,pem'  WHERE  `name` = 'filetype' [ RunTime:0.005108s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '0'  WHERE  `name` = 'water_status' [ RunTime:0.012678s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '5'  WHERE  `name` = 'water_position' [ RunTime:0.004939s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip'  WHERE  `name` = 'domain' [ RunTime:0.006592s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '90'  WHERE  `name` = 'water_alpha' [ RunTime:0.008256s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '339cceb1b922476e5790d629ba94b568'  WHERE  `name` = 'appsecret' [ RunTime:0.009794s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'wx3a1c2d6617cd449e'  WHERE  `name` = 'appid' [ RunTime:0.007250s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea30ae1e2a.png'  WHERE  `name` = 'db_img' [ RunTime:0.009512s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea2f989956.jpg'  WHERE  `name` = 'wxlogo' [ RunTime:0.011510s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '用户协议'  WHERE  `name` = 'agreement_title' [ RunTime:0.009371s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'privacy_content' [ RunTime:0.008555s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'agreement_content' [ RunTime:0.005792s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '年报通隐私政策'  WHERE  `name` = 'privacy_title' [ RunTime:0.013162s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '个体年报'  WHERE  `name` = 'wxtitle' [ RunTime:0.006495s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '298'  WHERE  `name` = 'specialfee' [ RunTime:0.025453s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '298'  WHERE  `name` = 'normalfee' [ RunTime:0.006447s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '代理报送年报服务协议'  WHERE  `name` = 'submitted_title' [ RunTime:0.004946s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'normal_content' [ RunTime:0.006488s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'special_content' [ RunTime:0.009390s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '15668132677'  WHERE  `name` = 'service_telephone' [ RunTime:0.006840s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'key' [ RunTime:0.012959s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'secretkey' [ RunTime:0.006140s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1'  WHERE  `name` = 'type' [ RunTime:0.013924s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1624596206'  WHERE  `name` = 'mch_id' [ RunTime:0.006343s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'zccccccccccccccccccccccccccccccc'  WHERE  `name` = 'pay_secretkey' [ RunTime:0.005027s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'orgid' [ RunTime:0.004924s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'mno' [ RunTime:0.005400s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'privatekey' [ RunTime:0.008549s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'sxfpublic' [ RunTime:0.004928s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea305af4e9.png'  WHERE  `name` = 'topleft_logo' [ RunTime:0.005102s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea307e6c5a.png'  WHERE  `name` = 'topright_logo' [ RunTime:0.007663s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '为经营主体提供年报代报服务的平台代报服务费200元，如办理不成功全额退款。'  WHERE  `name` = 'specialprompt' [ RunTime:0.007186s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '为经营主体提供年报代报服务的平台代报服务费298元，如办理不成功全额退款。'  WHERE  `name` = 'normalprompt' [ RunTime:0.021036s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '鲁ICP备2023023028号-1'  WHERE  `name` = 'bottom_copyright' [ RunTime:0.005504s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'article_link' [ RunTime:0.012686s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '本平台提供年报代办服务，方便快捷，如办理不成功可全额退款。'  WHERE  `name` = 'top_word' [ RunTime:0.005250s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'cert_path' [ RunTime:0.006004s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'key_path' [ RunTime:0.015239s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'hy_apiid' [ RunTime:0.009944s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'hy_apikey' [ RunTime:0.004929s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1'  WHERE  `name` = 'hy_type' [ RunTime:0.005118s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'shoptop_logo' [ RunTime:0.005425s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p>48阿达</p>'  WHERE  `name` = 'agreementcontent' [ RunTime:0.005722s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1'  WHERE  `name` = 'is_mo' [ RunTime:0.007359s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p>&nbsp; &nbsp; &nbsp; &nbsp;一、本协议将成为您与我司就办理年报报送事宜所签署的具有法律约束力的文件。您已充分阅读、理解并接受本协议的全部内容，知悉支付年报代报费用即表示您委托我司全权为您办理年报报送事宜，我司将通过网络在线方式为您提供年报代报服务</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;二、您知悉，按照《企业信息公示暂行条例》《个体工商户年度报告暂行办法》等法规文件，报送年报是您的法定义务。您也知悉，通过市场监督管理部门渠道报送年报是免费的，通过我司代办年报报送您需向我司支付代报费用。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;三、您知悉，为办理年报报送之必要，您需要向我司提供包括但不限于法定代表人或负责人身份证、手机号、经营状况等资料，您应当保证资料的真实性、完整性、合法性。我司将根据您的委托，按照管辖地市场监督管理部门的规定，及时为您办理年报报送的相关事宜。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;四、在您提交年报报送资料后，我司将在15个工作日完成年报报送工作，报送成功的标志是您的年报信息在&ldquo;全国企业信用信息公示系统&rdquo;中公示或在辖区市场监管部门网站公示。如在15个工作日内未能办结的，我司将根据您的要求或者继续办理或者全额退款。要求退款的，我司将在之后5个工作日内完成;要求继续办理的，您将不追究我司在承诺时间内未能办结的任何责任。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;五、年报报送成功或我司向您全额退款即意味着您与我司委托代理关系终止，本协议亦随即终止。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;六、因年报的报送截止日期为每年的6月30日，故我司原则上不再受理6月20日以后的委托。如您仍选择委托我司办理年报代报的，则意味着您自愿承担在6月30日之前报送不成功的风险，届时因未在截止时间前报送成功所产生的一切法律后果(包括但不限于经营异常、行政处罚等)由您自行承担，我司不因此承担任何责任。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;七、我司受理您的年报报送委托后，将忠实履行代理义务。如您在年报代报过程中有任何异议，均可通过本协议第九条联系方式向我司反映，我司将及时进行处理。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;八、针对为完成年报报送您所提交的资料(见本协议第三条)，您知晓并同意按以下方式处理：</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;1、凡报送成功的，您所提交的资料将保存至下一年度的年报报送截止日，但您选择&ldquo;不公开&rdquo;的内容我司将不做保存；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;2、已提交年报资料但报送未成功或您要求终止委托关系而全额退款的，我司仅保存您的联系方式(含手机号)，其他资料不做保存；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;3、凡我司保存的资料，我司将采取严格的保密措施，未经您同意，不公开、不向任何第三方提供，所保存的联系方式也仅用于与您本人联系。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;4、因我司违背上述约定而引发的一切后果由我司承担。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;九、我司为您提供人工电话服务，;您可通过电话咨询业务、了解进程、反映问题、进行投诉等。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;十、如我司未违背本协议约定，您不得向任何第三方发布、提供有损我司利益、名誉的信息，否则我司有权追究您的法律责任。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;十一、如您与我司就本协议内容或其执行发生任何争议，双方应尽力友好协商解决:协商不成时，应向协议签订地有管辖权的人民法院提起诉讼。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;以下简称&ldquo;本平台&rdquo;，为经营主体提供年报代报、经营异常移出等业务。本平台属于第三方机构，为付费用户提供相关代办服务。本协议仅对付费用户与我司就办理代办年报报送、经营异常移出等事宜所签署的具有法律约束力的文件。您已充分阅读、理解并接受本协议的全部内容，知悉支付费用即表示您委托我司全权为您办理年报报送或经营异常移出事宜，我司将通过网络在线方式为您提供代办服务。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 一、您知悉，按照《企业信息公示暂行条例》《个体工商户年度报告暂行办法》等法规文件，报送年报是您的法定义务。您也知悉，通过市场监督管理部门渠道报送年报、移除经营异常是免费的，通过我司代办业务您需向我司支付代报费用。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 二、您知悉，为办理业务之必要，您需要向我司提供包括但不限于法定代表人或负责人身份证、手机号经营状况等资料，您应当保证资料的真实性、完整性合法性。我司将根据您的委托，按照管辖地市场监督管理部门的规定，及时为您办理相关业务</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 三、在您提交相关资料后，我司将在15个工作日完成代办工作，如在15个工作日内未能办结的，我司将根据您的要求或者继续办理或者全额退款。要求退款的我司将在之后5个工作日内完成:要求继续办理的，您将不追究我司在承诺时间内未能办结的任何责任。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 四、年报报送成功或经营异常移出成功或我司向您全额退款即意味着您与我司委托代理关系终止，本协议亦随即终止。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 五、我司受理您的委托后，将忠实履行代理义务。如您在业务办理过程中有任何异议，均可通过本协议第八条联系方式向我司反映，我司将及时进行处理。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 六、针对为完成年报报送您所提交的资料(见本协议第三条)，您知晓并同意按以下方式处理: 1、凡业务办理成功的，您所提交的资料将保存至下一年度的年报报送截止日，但您选择&ldquo;不公开&rdquo;的内容我司将不做保存;2、业务未办理成功或您要求终止委托关系而全额退款的，我司仅保存您的联系方式(含手机号)，其他资料不做保存: 3、凡我司保存的资料，我司将采取严格的保密措施，未经您同意，不公开、不向任何第三方提供，所保存的联系方式也仅用于与您本人联系。 4因我司违背上述约定而引发的一切后果由我司承担。</p>
+<p>&nbsp; &nbsp; &nbsp; 七、我司为您提供人工电话服务，您可通过电话咨询业务、了解进程、反映问题、进行投诉等。</p>
+<p>&nbsp; &nbsp; &nbsp; 八、如我司未违背本协议约定，您不得向任何第三方发布、提供有损我司利益、名誉的信息，否则我司有权追究您的法律责任</p>
+<p>&nbsp; &nbsp; &nbsp; 九、如您与我司就本协议内容或其执行发生任何争议，双方应尽力友好协商解决;协商不成时，应向协议签订地有管辖权的人民法院提起诉讼。<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;确保用户的数据安全和隐私保护是我们的首要任务，本隐私政策载明了您访问和使用我们的产品和服务时所收集的数据及其处理方式。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;请您在继续使用我们的产品前务必认真仔细阅读并确认充分理解本隐私政策全部规则和要点，一旦您选择使用，即视为您同意本隐私政策的全部内容，同意我们按其收集和使用您的相关信息。如您在在阅读过程中对本政策有任何疑问，可联系我们的客服咨询，请通过年报通中的在线客服与我们取得联系。如您不同意相关协议或其中的任何条款的，您应停止使用我们的产品和服务。</p>
+<p>&nbsp; &nbsp; &nbsp; 本隐私政策帮助您了解以下内容：</p>
+<p>&nbsp; &nbsp; &nbsp; 一、我们如何收集和使用您的个人信息；</p>
+<p>&nbsp; &nbsp; &nbsp; 二、我们如何存储和保护您的个人信息；</p>
+<p>&nbsp; &nbsp; &nbsp; 三、我们如何共享、转让、公开披露您的个人信息；</p>
+<p>&nbsp; &nbsp; &nbsp; 一、我们如何收集和使用您的个人信息</p>
+<p>&nbsp; &nbsp; &nbsp; 个人信息是指以电子或者其他方式记录的能够单独或者与其他信息，结合识别特定自然人身份或者反映特定自然人活动情况的各种信息。我们根据《中华人民共和国网络安全法》和《信息安全技术个人信息安全规范》(GB/T35273-2017)以及其它相关法律法规的要求，并严格遵循正当、合法、必要的原则，出于您使用我们提供的服务和/或产品等过程中而收集和使用您的个人信息，包括但不限于电话号码等。在怒初次使用本系统时，需要您提供手机号进行登录。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;二、我们如何存储和保护您的个人信息</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;作为一般规则，我们仅在实现信息收集目的所需的时间内保留您的个人信息。我们会在对于管理与您之间的关系严格必要的时间内保留您的人信息。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;当您的个人信息对于我们的法定义务或法定时效对应的目的或档案不再必要时，我们确保将其完全删除或匿名化。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;我们使用符合业界标准的安全防护措施保护您提供的个人信息，并加密其中的关键数据，防止其遭到未经授权访问、公开披露、使用、修改、损坏或丢失。我们会采取一切合理可行的措施，保护您的个人信息。我们会使用加密技术确保数据的保密性;我们会使用受信赖的保护机制防止数据遭到恶意攻击。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;为了加强对隐私数据的保护，我们在收集时就已对其进行了脱敏处理，即使在我们自己的数据库中，也不会储存具有关联性的、明文的隐私数据。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;三、我们如何共享、转让、公开披露您的个人信息在管理我们的日常业务活动所需要时，为追求合法利益以更好地服务客户，我们将合规且恰当的使用您的个人信息。我们不会主动共享或转让你的信息至任何第三方，如存在确需共享或转让时，开发者应当直接征得或确认第三方征得你的单独同意开发者承诺，不会对外公开披露你的信息，如必须公开披露时，我们会向你告知公开披露的目的、披露信息的类型及可能涉及的信息，并征得你的单独同意。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;在以下情形中，共享、转让、公开披露您的个人信息无需事先征得您的授权同意</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;1、与国家安全、国防安全直接相关的；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;2、与犯罪侦查、起诉、审判和判决执行等直接相关的；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;3、出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;4、您自行向社会公众公开的个人信息；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;5、从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道的;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;6、根据个人信息主体要求签订和履行合同所必需的；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;7、用于维护所提供的产品或服务的安全稳定运行所必需的，例如发现、处置产品或服务的故障；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;8、法律法规规定的其他情形。若你认为开发者未遵守上述约定，或有其他的投诉建议、或未成年人个人信息保护相关问题，可通过以下方式与开发者联系;或者向微信进行投诉。</p>'  WHERE  `name` = 'mo_tongyi_content' [ RunTime:0.008849s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea3011146f.png'  WHERE  `name` = 'ycpic' [ RunTime:0.006555s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea302af1e9.png'  WHERE  `name` = 'qypic' [ RunTime:0.006288s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '698'  WHERE  `name` = 'noareafee' [ RunTime:0.009536s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '年报代报送协议'  WHERE  `name` = 'mo_submitted_title' [ RunTime:0.015176s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '0'  WHERE  `name` = 'is_qiang' [ RunTime:0.012129s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1'  WHERE  `name` = 'is_yc' [ RunTime:0.006618s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '申报服务费用'  WHERE  `name` = 'shoptitle' [ RunTime:0.006009s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '异常服务费用'  WHERE  `name` = 'ycshoptitle' [ RunTime:0.005133s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '298'  WHERE  `name` = 'max_price' [ RunTime:0.006519s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '298'  WHERE  `name` = 'min_price' [ RunTime:0.005502s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '698'  WHERE  `name` = 'ycmin_price' [ RunTime:0.009666s ]
+[2024-04-05T00:21:19+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '698'  WHERE  `name` = 'ycmax_price' [ RunTime:0.011060s ]
+[2024-04-05T00:21:57+08:00][sql] CONNECT:[ UseTime:0.000491s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T00:21:57+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000543s ]
+[2024-04-05T00:21:57+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000284s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '个体年报'  WHERE  `name` = 'site_title' [ RunTime:0.009275s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea2f989956.jpg'  WHERE  `name` = 'logo' [ RunTime:0.007104s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'keyword' [ RunTime:0.007640s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '企业年报'  WHERE  `name` = 'descrip' [ RunTime:0.005205s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '版权'  WHERE  `name` = 'copyright' [ RunTime:0.006486s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '100'  WHERE  `name` = 'filesize' [ RunTime:0.010070s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'gif,png,jpg,jpeg,doc,docx,xls,xlsx,csv,pdf,rar,zip,txt,mp4,flv,wgt,pem'  WHERE  `name` = 'filetype' [ RunTime:0.009653s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '0'  WHERE  `name` = 'water_status' [ RunTime:0.007277s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '5'  WHERE  `name` = 'water_position' [ RunTime:0.005139s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip'  WHERE  `name` = 'domain' [ RunTime:0.006226s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '90'  WHERE  `name` = 'water_alpha' [ RunTime:0.005451s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '339cceb1b922476e5790d629ba94b568'  WHERE  `name` = 'appsecret' [ RunTime:0.005407s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'wx3a1c2d6617cd449e'  WHERE  `name` = 'appid' [ RunTime:0.006332s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea30ae1e2a.png'  WHERE  `name` = 'db_img' [ RunTime:0.009144s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea2f989956.jpg'  WHERE  `name` = 'wxlogo' [ RunTime:0.009884s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '用户协议'  WHERE  `name` = 'agreement_title' [ RunTime:0.012447s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'privacy_content' [ RunTime:0.009996s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'agreement_content' [ RunTime:0.012519s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '年报通隐私政策'  WHERE  `name` = 'privacy_title' [ RunTime:0.007238s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '个体年报'  WHERE  `name` = 'wxtitle' [ RunTime:0.008332s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '298'  WHERE  `name` = 'specialfee' [ RunTime:0.012193s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '298'  WHERE  `name` = 'normalfee' [ RunTime:0.008270s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '代理报送年报服务协议'  WHERE  `name` = 'submitted_title' [ RunTime:0.004966s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'normal_content' [ RunTime:0.006793s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'special_content' [ RunTime:0.009042s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '15668132677'  WHERE  `name` = 'service_telephone' [ RunTime:0.007581s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'key' [ RunTime:0.007132s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'secretkey' [ RunTime:0.008447s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1'  WHERE  `name` = 'type' [ RunTime:0.015709s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1624596206'  WHERE  `name` = 'mch_id' [ RunTime:0.009022s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'zccccccccccccccccccccccccccccccc'  WHERE  `name` = 'pay_secretkey' [ RunTime:0.009309s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'orgid' [ RunTime:0.006438s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'mno' [ RunTime:0.006971s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'privatekey' [ RunTime:0.005661s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'sxfpublic' [ RunTime:0.005156s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea305af4e9.png'  WHERE  `name` = 'topleft_logo' [ RunTime:0.004958s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea307e6c5a.png'  WHERE  `name` = 'topright_logo' [ RunTime:0.010169s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '为经营主体提供年报代报服务的平台代报服务费200元，如办理不成功全额退款。'  WHERE  `name` = 'specialprompt' [ RunTime:0.005358s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '为经营主体提供年报代报服务的平台代报服务费298元，如办理不成功全额退款。'  WHERE  `name` = 'normalprompt' [ RunTime:0.005233s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '鲁ICP备2023023028号-1'  WHERE  `name` = 'bottom_copyright' [ RunTime:0.007156s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'article_link' [ RunTime:0.005098s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '本平台提供年报代办服务，方便快捷，如办理不成功可全额退款。'  WHERE  `name` = 'top_word' [ RunTime:0.007252s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'cert_path' [ RunTime:0.006401s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'key_path' [ RunTime:0.006623s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'hy_apiid' [ RunTime:0.012054s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'hy_apikey' [ RunTime:0.005201s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1'  WHERE  `name` = 'hy_type' [ RunTime:0.012078s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'shoptop_logo' [ RunTime:0.005610s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p>48阿达</p>'  WHERE  `name` = 'agreementcontent' [ RunTime:0.005774s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1'  WHERE  `name` = 'is_mo' [ RunTime:0.005979s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p>&nbsp; &nbsp; &nbsp; &nbsp;一、本协议将成为您与我司就办理年报报送事宜所签署的具有法律约束力的文件。您已充分阅读、理解并接受本协议的全部内容，知悉支付年报代报费用即表示您委托我司全权为您办理年报报送事宜，我司将通过网络在线方式为您提供年报代报服务</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;二、您知悉，按照《企业信息公示暂行条例》《个体工商户年度报告暂行办法》等法规文件，报送年报是您的法定义务。您也知悉，通过市场监督管理部门渠道报送年报是免费的，通过我司代办年报报送您需向我司支付代报费用。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;三、您知悉，为办理年报报送之必要，您需要向我司提供包括但不限于法定代表人或负责人身份证、手机号、经营状况等资料，您应当保证资料的真实性、完整性、合法性。我司将根据您的委托，按照管辖地市场监督管理部门的规定，及时为您办理年报报送的相关事宜。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;四、在您提交年报报送资料后，我司将在15个工作日完成年报报送工作，报送成功的标志是您的年报信息在&ldquo;全国企业信用信息公示系统&rdquo;中公示或在辖区市场监管部门网站公示。如在15个工作日内未能办结的，我司将根据您的要求或者继续办理或者全额退款。要求退款的，我司将在之后5个工作日内完成;要求继续办理的，您将不追究我司在承诺时间内未能办结的任何责任。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;五、年报报送成功或我司向您全额退款即意味着您与我司委托代理关系终止，本协议亦随即终止。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;六、因年报的报送截止日期为每年的6月30日，故我司原则上不再受理6月20日以后的委托。如您仍选择委托我司办理年报代报的，则意味着您自愿承担在6月30日之前报送不成功的风险，届时因未在截止时间前报送成功所产生的一切法律后果(包括但不限于经营异常、行政处罚等)由您自行承担，我司不因此承担任何责任。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;七、我司受理您的年报报送委托后，将忠实履行代理义务。如您在年报代报过程中有任何异议，均可通过本协议第九条联系方式向我司反映，我司将及时进行处理。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;八、针对为完成年报报送您所提交的资料(见本协议第三条)，您知晓并同意按以下方式处理：</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;1、凡报送成功的，您所提交的资料将保存至下一年度的年报报送截止日，但您选择&ldquo;不公开&rdquo;的内容我司将不做保存；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;2、已提交年报资料但报送未成功或您要求终止委托关系而全额退款的，我司仅保存您的联系方式(含手机号)，其他资料不做保存；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;3、凡我司保存的资料，我司将采取严格的保密措施，未经您同意，不公开、不向任何第三方提供，所保存的联系方式也仅用于与您本人联系。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;4、因我司违背上述约定而引发的一切后果由我司承担。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;九、我司为您提供人工电话服务，;您可通过电话咨询业务、了解进程、反映问题、进行投诉等。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;十、如我司未违背本协议约定，您不得向任何第三方发布、提供有损我司利益、名誉的信息，否则我司有权追究您的法律责任。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;十一、如您与我司就本协议内容或其执行发生任何争议，双方应尽力友好协商解决:协商不成时，应向协议签订地有管辖权的人民法院提起诉讼。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;以下简称&ldquo;本平台&rdquo;，为经营主体提供年报代报、经营异常移出等业务。本平台属于第三方机构，为付费用户提供相关代办服务。本协议仅对付费用户与我司就办理代办年报报送、经营异常移出等事宜所签署的具有法律约束力的文件。您已充分阅读、理解并接受本协议的全部内容，知悉支付费用即表示您委托我司全权为您办理年报报送或经营异常移出事宜，我司将通过网络在线方式为您提供代办服务。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 一、您知悉，按照《企业信息公示暂行条例》《个体工商户年度报告暂行办法》等法规文件，报送年报是您的法定义务。您也知悉，通过市场监督管理部门渠道报送年报、移除经营异常是免费的，通过我司代办业务您需向我司支付代报费用。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 二、您知悉，为办理业务之必要，您需要向我司提供包括但不限于法定代表人或负责人身份证、手机号经营状况等资料，您应当保证资料的真实性、完整性合法性。我司将根据您的委托，按照管辖地市场监督管理部门的规定，及时为您办理相关业务</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 三、在您提交相关资料后，我司将在15个工作日完成代办工作，如在15个工作日内未能办结的，我司将根据您的要求或者继续办理或者全额退款。要求退款的我司将在之后5个工作日内完成:要求继续办理的，您将不追究我司在承诺时间内未能办结的任何责任。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 四、年报报送成功或经营异常移出成功或我司向您全额退款即意味着您与我司委托代理关系终止，本协议亦随即终止。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 五、我司受理您的委托后，将忠实履行代理义务。如您在业务办理过程中有任何异议，均可通过本协议第八条联系方式向我司反映，我司将及时进行处理。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 六、针对为完成年报报送您所提交的资料(见本协议第三条)，您知晓并同意按以下方式处理: 1、凡业务办理成功的，您所提交的资料将保存至下一年度的年报报送截止日，但您选择&ldquo;不公开&rdquo;的内容我司将不做保存;2、业务未办理成功或您要求终止委托关系而全额退款的，我司仅保存您的联系方式(含手机号)，其他资料不做保存: 3、凡我司保存的资料，我司将采取严格的保密措施，未经您同意，不公开、不向任何第三方提供，所保存的联系方式也仅用于与您本人联系。 4因我司违背上述约定而引发的一切后果由我司承担。</p>
+<p>&nbsp; &nbsp; &nbsp; 七、我司为您提供人工电话服务，您可通过电话咨询业务、了解进程、反映问题、进行投诉等。</p>
+<p>&nbsp; &nbsp; &nbsp; 八、如我司未违背本协议约定，您不得向任何第三方发布、提供有损我司利益、名誉的信息，否则我司有权追究您的法律责任</p>
+<p>&nbsp; &nbsp; &nbsp; 九、如您与我司就本协议内容或其执行发生任何争议，双方应尽力友好协商解决;协商不成时，应向协议签订地有管辖权的人民法院提起诉讼。<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;确保用户的数据安全和隐私保护是我们的首要任务，本隐私政策载明了您访问和使用我们的产品和服务时所收集的数据及其处理方式。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;请您在继续使用我们的产品前务必认真仔细阅读并确认充分理解本隐私政策全部规则和要点，一旦您选择使用，即视为您同意本隐私政策的全部内容，同意我们按其收集和使用您的相关信息。如您在在阅读过程中对本政策有任何疑问，可联系我们的客服咨询，请通过年报通中的在线客服与我们取得联系。如您不同意相关协议或其中的任何条款的，您应停止使用我们的产品和服务。</p>
+<p>&nbsp; &nbsp; &nbsp; 本隐私政策帮助您了解以下内容：</p>
+<p>&nbsp; &nbsp; &nbsp; 一、我们如何收集和使用您的个人信息；</p>
+<p>&nbsp; &nbsp; &nbsp; 二、我们如何存储和保护您的个人信息；</p>
+<p>&nbsp; &nbsp; &nbsp; 三、我们如何共享、转让、公开披露您的个人信息；</p>
+<p>&nbsp; &nbsp; &nbsp; 一、我们如何收集和使用您的个人信息</p>
+<p>&nbsp; &nbsp; &nbsp; 个人信息是指以电子或者其他方式记录的能够单独或者与其他信息，结合识别特定自然人身份或者反映特定自然人活动情况的各种信息。我们根据《中华人民共和国网络安全法》和《信息安全技术个人信息安全规范》(GB/T35273-2017)以及其它相关法律法规的要求，并严格遵循正当、合法、必要的原则，出于您使用我们提供的服务和/或产品等过程中而收集和使用您的个人信息，包括但不限于电话号码等。在怒初次使用本系统时，需要您提供手机号进行登录。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;二、我们如何存储和保护您的个人信息</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;作为一般规则，我们仅在实现信息收集目的所需的时间内保留您的个人信息。我们会在对于管理与您之间的关系严格必要的时间内保留您的人信息。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;当您的个人信息对于我们的法定义务或法定时效对应的目的或档案不再必要时，我们确保将其完全删除或匿名化。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;我们使用符合业界标准的安全防护措施保护您提供的个人信息，并加密其中的关键数据，防止其遭到未经授权访问、公开披露、使用、修改、损坏或丢失。我们会采取一切合理可行的措施，保护您的个人信息。我们会使用加密技术确保数据的保密性;我们会使用受信赖的保护机制防止数据遭到恶意攻击。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;为了加强对隐私数据的保护，我们在收集时就已对其进行了脱敏处理，即使在我们自己的数据库中，也不会储存具有关联性的、明文的隐私数据。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;三、我们如何共享、转让、公开披露您的个人信息在管理我们的日常业务活动所需要时，为追求合法利益以更好地服务客户，我们将合规且恰当的使用您的个人信息。我们不会主动共享或转让你的信息至任何第三方，如存在确需共享或转让时，开发者应当直接征得或确认第三方征得你的单独同意开发者承诺，不会对外公开披露你的信息，如必须公开披露时，我们会向你告知公开披露的目的、披露信息的类型及可能涉及的信息，并征得你的单独同意。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;在以下情形中，共享、转让、公开披露您的个人信息无需事先征得您的授权同意</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;1、与国家安全、国防安全直接相关的；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;2、与犯罪侦查、起诉、审判和判决执行等直接相关的；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;3、出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;4、您自行向社会公众公开的个人信息；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;5、从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道的;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;6、根据个人信息主体要求签订和履行合同所必需的；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;7、用于维护所提供的产品或服务的安全稳定运行所必需的，例如发现、处置产品或服务的故障；</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;8、法律法规规定的其他情形。若你认为开发者未遵守上述约定，或有其他的投诉建议、或未成年人个人信息保护相关问题，可通过以下方式与开发者联系;或者向微信进行投诉。</p>'  WHERE  `name` = 'mo_tongyi_content' [ RunTime:0.005928s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea3011146f.png'  WHERE  `name` = 'ycpic' [ RunTime:0.005063s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://tieie.xyaa.vip/uploads/admin/202404/660ea302af1e9.png'  WHERE  `name` = 'qypic' [ RunTime:0.004806s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '698'  WHERE  `name` = 'noareafee' [ RunTime:0.006109s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '年报代报送协议'  WHERE  `name` = 'mo_submitted_title' [ RunTime:0.010612s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '0'  WHERE  `name` = 'is_qiang' [ RunTime:0.006662s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1'  WHERE  `name` = 'is_yc' [ RunTime:0.014424s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '申报服务费用'  WHERE  `name` = 'shoptitle' [ RunTime:0.013382s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '异常服务费用'  WHERE  `name` = 'ycshoptitle' [ RunTime:0.007366s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '298'  WHERE  `name` = 'max_price' [ RunTime:0.011428s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '298'  WHERE  `name` = 'min_price' [ RunTime:0.004941s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '698'  WHERE  `name` = 'ycmin_price' [ RunTime:0.004845s ]
+[2024-04-05T00:21:57+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '698'  WHERE  `name` = 'ycmax_price' [ RunTime:0.004839s ]
+[2024-04-05T07:15:03+08:00][sql] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:15:03+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000643s ]
+[2024-04-05T07:15:03+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000312s ]
+[2024-04-05T07:15:04+08:00][sql] CONNECT:[ UseTime:0.000496s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:15:04+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000573s ]
+[2024-04-05T07:15:04+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000304s ]
+[2024-04-05T07:16:59+08:00][sql] CONNECT:[ UseTime:0.000498s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:16:59+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000703s ]
+[2024-04-05T07:16:59+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000397s ]
+[2024-04-05T07:17:00+08:00][sql] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:17:00+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_node` [ RunTime:0.000776s ]
+[2024-04-05T07:17:00+08:00][sql] SELECT `node_id`,`pid`,`title`,`status`,`icon`,`sortid`,`path` FROM `nianbao_node` WHERE  `status` = 1  AND `type` = 1 ORDER BY `sortid` ASC [ RunTime:0.000537s ]
+[2024-04-05T07:17:01+08:00][sql] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:17:01+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000923s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-01 00:00:00' AND '2024-04-01 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000361s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-02 00:00:00' AND '2024-04-02 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000248s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-03 00:00:00' AND '2024-04-03 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000208s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-04 00:00:00' AND '2024-04-04 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000234s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-05 00:00:00' AND '2024-04-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000217s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-06 00:00:00' AND '2024-04-06 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000243s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-07 00:00:00' AND '2024-04-07 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000214s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-08 00:00:00' AND '2024-04-08 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000243s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-09 00:00:00' AND '2024-04-09 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000239s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-10 00:00:00' AND '2024-04-10 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000237s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-11 00:00:00' AND '2024-04-11 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000214s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-12 00:00:00' AND '2024-04-12 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000209s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-13 00:00:00' AND '2024-04-13 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000211s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-14 00:00:00' AND '2024-04-14 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000232s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-15 00:00:00' AND '2024-04-15 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000213s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-16 00:00:00' AND '2024-04-16 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000224s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-17 00:00:00' AND '2024-04-17 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-18 00:00:00' AND '2024-04-18 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000208s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-19 00:00:00' AND '2024-04-19 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000340s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-20 00:00:00' AND '2024-04-20 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000234s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-21 00:00:00' AND '2024-04-21 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000266s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-22 00:00:00' AND '2024-04-22 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000293s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-23 00:00:00' AND '2024-04-23 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000240s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-24 00:00:00' AND '2024-04-24 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000236s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-25 00:00:00' AND '2024-04-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000207s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-26 00:00:00' AND '2024-04-26 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000244s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-27 00:00:00' AND '2024-04-27 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000220s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-28 00:00:00' AND '2024-04-28 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000226s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-29 00:00:00' AND '2024-04-29 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000226s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-30 00:00:00' AND '2024-04-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000225s ]
+[2024-04-05T07:17:01+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000716s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2024-04-01 00:00:00' AND '2024-04-30 23:59:59'  LIMIT 1 [ RunTime:0.000269s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-01 00:00:00' AND '2024-04-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000222s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-01 00:00:00' AND '2024-04-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000241s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `refund_time` BETWEEN '2024-04-01 00:00:00' AND '2024-04-30 23:59:59'   AND `is_pay` = 1  AND `is_refund` = '1' LIMIT 1 [ RunTime:0.000217s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2024-04-05 00:00:00' AND '2024-04-05 23:59:59'  LIMIT 1 [ RunTime:0.000217s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-05 00:00:00' AND '2024-04-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000206s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2024-04-05 00:00:00' AND '2024-04-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000211s ]
+[2024-04-05T07:17:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `refund_time` BETWEEN '2024-04-05 00:00:00' AND '2024-04-05 23:59:59'   AND `is_pay` = 1  AND `is_refund` = '1' LIMIT 1 [ RunTime:0.000211s ]
+[2024-04-05T07:17:03+08:00][sql] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:17:03+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000583s ]
+[2024-04-05T07:17:03+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000301s ]
+[2024-04-05T07:17:39+08:00][sql] CONNECT:[ UseTime:0.000519s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:17:39+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000563s ]
+[2024-04-05T07:17:39+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000312s ]
+[2024-04-05T07:17:45+08:00][sql] CONNECT:[ UseTime:0.000510s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:17:45+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000613s ]
+[2024-04-05T07:17:45+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000327s ]
+[2024-04-05T07:18:10+08:00][sql] CONNECT:[ UseTime:0.000518s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:18:10+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000714s ]
+[2024-04-05T07:18:10+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000306s ]
+[2024-04-05T07:18:11+08:00][sql] CONNECT:[ UseTime:0.000532s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:18:11+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000602s ]
+[2024-04-05T07:18:11+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000313s ]
+[2024-04-05T07:18:54+08:00][sql] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:18:54+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000647s ]
+[2024-04-05T07:18:54+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000368s ]
+[2024-04-05T07:19:11+08:00][sql] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:19:11+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000597s ]
+[2024-04-05T07:19:11+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000280s ]
+[2024-04-05T07:19:11+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000263s ]
+[2024-04-05T07:19:42+08:00][sql] CONNECT:[ UseTime:0.000589s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:19:42+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000609s ]
+[2024-04-05T07:19:42+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000281s ]
+[2024-04-05T07:21:04+08:00][sql] CONNECT:[ UseTime:0.000505s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:21:04+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000617s ]
+[2024-04-05T07:21:04+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000303s ]
+[2024-04-05T07:21:06+08:00][sql] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:21:06+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000594s ]
+[2024-04-05T07:21:06+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000274s ]
+[2024-04-05T07:23:33+08:00][sql] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:23:33+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000543s ]
+[2024-04-05T07:23:33+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000278s ]
+[2024-04-05T07:23:35+08:00][sql] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:23:35+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000577s ]
+[2024-04-05T07:23:35+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000318s ]
+[2024-04-05T07:23:40+08:00][sql] CONNECT:[ UseTime:0.000516s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:23:40+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000542s ]
+[2024-04-05T07:23:40+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000295s ]
+[2024-04-05T07:28:37+08:00][sql] CONNECT:[ UseTime:0.000491s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:28:37+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000560s ]
+[2024-04-05T07:28:37+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000276s ]
+[2024-04-05T07:28:38+08:00][sql] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:28:38+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000646s ]
+[2024-04-05T07:28:38+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000320s ]
+[2024-04-05T07:29:07+08:00][sql] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:29:07+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000599s ]
+[2024-04-05T07:29:07+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000281s ]
+[2024-04-05T07:30:15+08:00][sql] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:30:15+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000561s ]
+[2024-04-05T07:30:15+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000296s ]
+[2024-04-05T07:30:17+08:00][sql] CONNECT:[ UseTime:0.000462s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:30:17+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000549s ]
+[2024-04-05T07:30:17+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000309s ]
+[2024-04-05T07:31:21+08:00][sql] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:31:21+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000653s ]
+[2024-04-05T07:31:21+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000330s ]
+[2024-04-05T07:31:23+08:00][sql] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:31:23+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000513s ]
+[2024-04-05T07:31:23+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000263s ]
+[2024-04-05T07:32:30+08:00][sql] CONNECT:[ UseTime:0.000499s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:32:30+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000586s ]
+[2024-04-05T07:32:30+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000327s ]
+[2024-04-05T07:32:31+08:00][sql] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:32:31+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000654s ]
+[2024-04-05T07:32:31+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000343s ]
+[2024-04-05T07:33:05+08:00][sql] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:33:05+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000539s ]
+[2024-04-05T07:33:05+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000269s ]
+[2024-04-05T07:35:54+08:00][sql] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:35:54+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000714s ]
+[2024-04-05T07:35:54+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000365s ]
+[2024-04-05T07:35:55+08:00][sql] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:35:55+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000573s ]
+[2024-04-05T07:35:55+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000283s ]
+[2024-04-05T07:40:34+08:00][sql] CONNECT:[ UseTime:0.000502s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:40:34+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000576s ]
+[2024-04-05T07:40:34+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000311s ]
+[2024-04-05T07:40:35+08:00][sql] CONNECT:[ UseTime:0.000480s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:40:35+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000616s ]
+[2024-04-05T07:40:35+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000678s ]
+[2024-04-05T07:42:12+08:00][sql] CONNECT:[ UseTime:0.000471s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:42:12+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000556s ]
+[2024-04-05T07:42:12+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000309s ]
+[2024-04-05T07:42:13+08:00][sql] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:42:13+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000579s ]
+[2024-04-05T07:42:13+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000281s ]
+[2024-04-05T07:42:38+08:00][sql] CONNECT:[ UseTime:0.000502s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:42:38+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000573s ]
+[2024-04-05T07:42:38+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000326s ]
+[2024-04-05T07:44:08+08:00][sql] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:44:08+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000586s ]
+[2024-04-05T07:44:08+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000333s ]
+[2024-04-05T07:45:45+08:00][sql] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:45:45+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000552s ]
+[2024-04-05T07:45:45+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000316s ]
+[2024-04-05T07:45:46+08:00][sql] CONNECT:[ UseTime:0.000492s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T07:45:46+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000572s ]
+[2024-04-05T07:45:46+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000290s ]
+[2024-04-05T10:03:39+08:00][sql] CONNECT:[ UseTime:0.000498s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T10:03:39+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000726s ]
+[2024-04-05T10:03:39+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.001271s ]
+[2024-04-05T10:32:20+08:00][sql] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T10:32:20+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000767s ]
+[2024-04-05T10:32:20+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000293s ]
+[2024-04-05T10:33:49+08:00][sql] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T10:33:49+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000578s ]
+[2024-04-05T10:33:49+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000304s ]
+[2024-04-05T23:34:32+08:00][sql] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;port=3306;dbname=tieie_xyaa_vip;charset=utf8
+[2024-04-05T23:34:32+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.001615s ]
+[2024-04-05T23:34:32+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.001994s ]

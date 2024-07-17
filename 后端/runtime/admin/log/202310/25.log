@@ -1,0 +1,818 @@
+[2023-10-25T00:42:05+08:00][sql] CONNECT:[ UseTime:0.000339s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:42:05+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000488s ]
+[2023-10-25T00:42:05+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000267s ]
+[2023-10-25T00:42:07+08:00][sql] CONNECT:[ UseTime:0.000354s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:42:07+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000555s ]
+[2023-10-25T00:42:07+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` LIMIT 1 [ RunTime:0.000197s ]
+[2023-10-25T00:42:07+08:00][sql] SELECT `id`,`nickname`,`openid`,`avatar`,`mobile`,`is_delete`,`create_time` FROM `nianbao_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000201s ]
+[2023-10-25T00:42:17+08:00][sql] CONNECT:[ UseTime:0.000328s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:42:17+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000556s ]
+[2023-10-25T00:42:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T00:42:17+08:00][sql] SELECT `id`,`nickname`,`openid`,`avatar`,`mobile`,`is_delete`,`create_time` FROM `nianbao_member` ORDER BY `id` DESC LIMIT 20,20 [ RunTime:0.000214s ]
+[2023-10-25T00:42:20+08:00][sql] CONNECT:[ UseTime:0.000352s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:42:20+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000539s ]
+[2023-10-25T00:42:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` LIMIT 1 [ RunTime:0.000203s ]
+[2023-10-25T00:42:20+08:00][sql] SELECT `id`,`nickname`,`openid`,`avatar`,`mobile`,`is_delete`,`create_time` FROM `nianbao_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000193s ]
+[2023-10-25T00:42:34+08:00][sql] CONNECT:[ UseTime:0.000347s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:42:34+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000665s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-01 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-02 00:00:00' AND '2023-10-02 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000288s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-03 00:00:00' AND '2023-10-03 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000233s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-04 00:00:00' AND '2023-10-04 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000225s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-05 00:00:00' AND '2023-10-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-06 00:00:00' AND '2023-10-06 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000179s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-07 00:00:00' AND '2023-10-07 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-08 00:00:00' AND '2023-10-08 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000210s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-09 00:00:00' AND '2023-10-09 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-10 00:00:00' AND '2023-10-10 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-11 00:00:00' AND '2023-10-11 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-12 00:00:00' AND '2023-10-12 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-13 00:00:00' AND '2023-10-13 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000207s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-14 00:00:00' AND '2023-10-14 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000257s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-15 00:00:00' AND '2023-10-15 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000204s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-16 00:00:00' AND '2023-10-16 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000204s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-17 00:00:00' AND '2023-10-17 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000197s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-18 00:00:00' AND '2023-10-18 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-19 00:00:00' AND '2023-10-19 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-20 00:00:00' AND '2023-10-20 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000200s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-21 00:00:00' AND '2023-10-21 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-22 00:00:00' AND '2023-10-22 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-23 00:00:00' AND '2023-10-23 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-24 00:00:00' AND '2023-10-24 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-26 00:00:00' AND '2023-10-26 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-27 00:00:00' AND '2023-10-27 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000206s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-28 00:00:00' AND '2023-10-28 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000210s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-29 00:00:00' AND '2023-10-29 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-30 00:00:00' AND '2023-10-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-31 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000190s ]
+[2023-10-25T00:42:34+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000390s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'  LIMIT 1 [ RunTime:0.000234s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000208s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000214s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000206s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T00:42:34+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[2023-10-25T00:42:41+08:00][sql] CONNECT:[ UseTime:0.000383s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:42:41+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000589s ]
+[2023-10-25T00:42:41+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `is_pay` = 1 LIMIT 1 [ RunTime:0.000261s ]
+[2023-10-25T00:42:41+08:00][sql] SELECT * FROM `nianbao_order` WHERE  `is_pay` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000287s ]
+[2023-10-25T00:43:05+08:00][sql] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:43:05+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_shop_type` [ RunTime:0.000548s ]
+[2023-10-25T00:43:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_shop_type` LIMIT 1 [ RunTime:0.000248s ]
+[2023-10-25T00:43:05+08:00][sql] SELECT `id`,`class_name`,`status`,`sortid` FROM `nianbao_shop_type` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000164s ]
+[2023-10-25T00:43:14+08:00][sql] CONNECT:[ UseTime:0.000346s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:43:14+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000509s ]
+[2023-10-25T00:43:14+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000247s ]
+[2023-10-25T00:43:16+08:00][sql] CONNECT:[ UseTime:0.000366s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:43:16+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_shop` [ RunTime:0.000634s ]
+[2023-10-25T00:43:16+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_shop` `shop` LEFT JOIN `nianbao_shop_type` `shoptype` ON `shop`.`class_id`=`shoptype`.`id` LIMIT 1 [ RunTime:0.000287s ]
+[2023-10-25T00:43:16+08:00][sql] select id,class_name from nianbao_shop_type [ RunTime:0.000189s ]
+[2023-10-25T00:43:21+08:00][sql] CONNECT:[ UseTime:0.000352s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:43:21+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000484s ]
+[2023-10-25T00:43:21+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000282s ]
+[2023-10-25T00:43:48+08:00][sql] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:43:48+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_admin_user` [ RunTime:0.000593s ]
+[2023-10-25T00:43:48+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_admin_user` `adminuser` LEFT JOIN `nianbao_role` `role` ON `adminuser`.`role_id`=`role`.`role_id` LIMIT 1 [ RunTime:0.000309s ]
+[2023-10-25T00:43:48+08:00][sql] SELECT `adminuser`.`user_id`,`adminuser`.`name`,`adminuser`.`user`,`adminuser`.`note`,`adminuser`.`status`,`adminuser`.`create_time`,`role`.`name` AS `role__name` FROM `nianbao_admin_user` `adminuser` LEFT JOIN `nianbao_role` `role` ON `adminuser`.`role_id`=`role`.`role_id` ORDER BY `user_id` DESC LIMIT 0,20 [ RunTime:0.000212s ]
+[2023-10-25T00:43:48+08:00][sql] select role_id,name from nianbao_role [ RunTime:0.000185s ]
+[2023-10-25T00:44:03+08:00][sql] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:44:03+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_role` [ RunTime:0.000581s ]
+[2023-10-25T00:44:03+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_role` LIMIT 1 [ RunTime:0.000167s ]
+[2023-10-25T00:44:03+08:00][sql] SELECT `role_id`,`name`,`status`,`description` FROM `nianbao_role` ORDER BY `role_id` DESC LIMIT 0,20 [ RunTime:0.000159s ]
+[2023-10-25T00:44:05+08:00][sql] CONNECT:[ UseTime:0.000344s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:44:05+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_log` [ RunTime:0.000630s ]
+[2023-10-25T00:44:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_log` LIMIT 1 [ RunTime:0.000333s ]
+[2023-10-25T00:44:05+08:00][sql] SELECT `id`,`application_name`,`username`,`url`,`ip`,`create_time`,`type` FROM `nianbao_log` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000211s ]
+[2023-10-25T00:44:20+08:00][sql] CONNECT:[ UseTime:0.000359s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:44:20+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000500s ]
+[2023-10-25T00:44:20+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000268s ]
+[2023-10-25T00:44:20+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_node` [ RunTime:0.000595s ]
+[2023-10-25T00:44:20+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_node` LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T00:44:20+08:00][sql] SELECT `node_id`,`title`,`type`,`path`,`status`,`icon`,`sortid`,`pid` FROM `nianbao_node` ORDER BY `sortid` ASC LIMIT 0,1000 [ RunTime:0.000238s ]
+[2023-10-25T00:44:20+08:00][sql] select node_id,title,pid from nianbao_node order by sortid asc [ RunTime:0.000207s ]
+[2023-10-25T00:44:30+08:00][sql] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:44:30+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000669s ]
+[2023-10-25T00:44:30+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` LIMIT 1 [ RunTime:0.000264s ]
+[2023-10-25T00:44:30+08:00][sql] SELECT `id`,`nickname`,`openid`,`avatar`,`mobile`,`is_delete`,`create_time` FROM `nianbao_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000289s ]
+[2023-10-25T00:44:32+08:00][sql] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:44:32+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000619s ]
+[2023-10-25T00:44:32+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_enterprise` LIMIT 1 [ RunTime:0.000712s ]
+[2023-10-25T00:44:32+08:00][sql] SELECT * FROM `nianbao_enterprise` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000203s ]
+[2023-10-25T00:44:43+08:00][sql] CONNECT:[ UseTime:0.000350s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:44:43+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000519s ]
+[2023-10-25T00:44:43+08:00][sql] SELECT * FROM `nianbao_enterprise` WHERE  `id` = 2955 LIMIT 1 [ RunTime:0.000264s ]
+[2023-10-25T00:44:43+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise_report` [ RunTime:0.000484s ]
+[2023-10-25T00:44:43+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_enterprise_report` `u` LEFT JOIN `nianbao_enterprise` `ub` ON `u`.`enterprise_code`=`ub`.`enterprise_code` WHERE  `u`.`enterprise_code` = '92370687MA7EY07292' LIMIT 1 [ RunTime:0.001753s ]
+[2023-10-25T00:44:43+08:00][sql] SELECT `u`.*,`ub`.`enterprise_name` FROM `nianbao_enterprise_report` `u` LEFT JOIN `nianbao_enterprise` `ub` ON `u`.`enterprise_code`=`ub`.`enterprise_code` WHERE  `u`.`enterprise_code` = '92370687MA7EY07292' ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.002178s ]
+[2023-10-25T00:44:49+08:00][sql] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:44:49+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000559s ]
+[2023-10-25T00:44:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_enterprise` LIMIT 1 [ RunTime:0.000693s ]
+[2023-10-25T00:44:49+08:00][sql] SELECT * FROM `nianbao_enterprise` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000203s ]
+[2023-10-25T00:44:53+08:00][sql] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:44:53+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000521s ]
+[2023-10-25T00:44:53+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_enterprise` LIMIT 1 [ RunTime:0.000755s ]
+[2023-10-25T00:44:53+08:00][sql] SELECT * FROM `nianbao_enterprise` ORDER BY `id` DESC LIMIT 20,20 [ RunTime:0.000228s ]
+[2023-10-25T00:44:56+08:00][sql] CONNECT:[ UseTime:0.000363s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:44:56+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000526s ]
+[2023-10-25T00:44:56+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_enterprise` LIMIT 1 [ RunTime:0.000677s ]
+[2023-10-25T00:44:56+08:00][sql] SELECT * FROM `nianbao_enterprise` ORDER BY `id` DESC LIMIT 40,20 [ RunTime:0.000221s ]
+[2023-10-25T00:45:18+08:00][sql] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:45:18+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000523s ]
+[2023-10-25T00:45:18+08:00][sql] SELECT * FROM `nianbao_enterprise` WHERE  `id` = 2899 LIMIT 1 [ RunTime:0.000251s ]
+[2023-10-25T00:45:18+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise_report` [ RunTime:0.000394s ]
+[2023-10-25T00:45:18+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_enterprise_report` `u` LEFT JOIN `nianbao_enterprise` `ub` ON `u`.`enterprise_code`=`ub`.`enterprise_code` WHERE  `u`.`enterprise_code` = '92370681MA958MAY39' LIMIT 1 [ RunTime:0.001690s ]
+[2023-10-25T00:45:18+08:00][sql] SELECT `u`.*,`ub`.`enterprise_name` FROM `nianbao_enterprise_report` `u` LEFT JOIN `nianbao_enterprise` `ub` ON `u`.`enterprise_code`=`ub`.`enterprise_code` WHERE  `u`.`enterprise_code` = '92370681MA958MAY39' ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.002177s ]
+[2023-10-25T00:48:46+08:00][sql] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:48:46+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000554s ]
+[2023-10-25T00:48:46+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000265s ]
+[2023-10-25T00:48:47+08:00][sql] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:48:47+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000748s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-01 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000362s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-02 00:00:00' AND '2023-10-02 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000276s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-03 00:00:00' AND '2023-10-03 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000272s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-04 00:00:00' AND '2023-10-04 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000255s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-05 00:00:00' AND '2023-10-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000263s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-06 00:00:00' AND '2023-10-06 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000248s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-07 00:00:00' AND '2023-10-07 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000258s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-08 00:00:00' AND '2023-10-08 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000247s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-09 00:00:00' AND '2023-10-09 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000256s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-10 00:00:00' AND '2023-10-10 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000245s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-11 00:00:00' AND '2023-10-11 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000257s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-12 00:00:00' AND '2023-10-12 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000264s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-13 00:00:00' AND '2023-10-13 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000274s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-14 00:00:00' AND '2023-10-14 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000258s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-15 00:00:00' AND '2023-10-15 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000264s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-16 00:00:00' AND '2023-10-16 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000263s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-17 00:00:00' AND '2023-10-17 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000287s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-18 00:00:00' AND '2023-10-18 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000263s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-19 00:00:00' AND '2023-10-19 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000272s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-20 00:00:00' AND '2023-10-20 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000262s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-21 00:00:00' AND '2023-10-21 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000272s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-22 00:00:00' AND '2023-10-22 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000264s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-23 00:00:00' AND '2023-10-23 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000274s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-24 00:00:00' AND '2023-10-24 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000263s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000272s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-26 00:00:00' AND '2023-10-26 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000263s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-27 00:00:00' AND '2023-10-27 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000273s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-28 00:00:00' AND '2023-10-28 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000262s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-29 00:00:00' AND '2023-10-29 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000272s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-30 00:00:00' AND '2023-10-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000261s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-31 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000272s ]
+[2023-10-25T00:48:47+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000503s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'  LIMIT 1 [ RunTime:0.000258s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000261s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000256s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000255s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000234s ]
+[2023-10-25T00:48:47+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000262s ]
+[2023-10-25T00:48:52+08:00][sql] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:48:52+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000522s ]
+[2023-10-25T00:48:52+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` LIMIT 1 [ RunTime:0.000209s ]
+[2023-10-25T00:48:52+08:00][sql] SELECT `id`,`nickname`,`openid`,`avatar`,`mobile`,`is_delete`,`create_time` FROM `nianbao_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000194s ]
+[2023-10-25T00:48:56+08:00][sql] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:48:56+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000503s ]
+[2023-10-25T00:48:56+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_enterprise` LIMIT 1 [ RunTime:0.000676s ]
+[2023-10-25T00:48:56+08:00][sql] SELECT * FROM `nianbao_enterprise` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000230s ]
+[2023-10-25T00:48:58+08:00][sql] CONNECT:[ UseTime:0.000343s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:48:58+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_shop` [ RunTime:0.000590s ]
+[2023-10-25T00:48:58+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_shop` `shop` LEFT JOIN `nianbao_shop_type` `shoptype` ON `shop`.`class_id`=`shoptype`.`id` LIMIT 1 [ RunTime:0.000235s ]
+[2023-10-25T00:48:58+08:00][sql] select id,class_name from nianbao_shop_type [ RunTime:0.000164s ]
+[2023-10-25T00:49:01+08:00][sql] CONNECT:[ UseTime:0.000270s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:49:01+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000498s ]
+[2023-10-25T00:49:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_enterprise` LIMIT 1 [ RunTime:0.000672s ]
+[2023-10-25T00:49:01+08:00][sql] SELECT * FROM `nianbao_enterprise` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000241s ]
+[2023-10-25T00:49:06+08:00][sql] CONNECT:[ UseTime:0.000336s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T00:49:06+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000521s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-01 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000293s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-02 00:00:00' AND '2023-10-02 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000208s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-03 00:00:00' AND '2023-10-03 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-04 00:00:00' AND '2023-10-04 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-05 00:00:00' AND '2023-10-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-06 00:00:00' AND '2023-10-06 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-07 00:00:00' AND '2023-10-07 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-08 00:00:00' AND '2023-10-08 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-09 00:00:00' AND '2023-10-09 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000179s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-10 00:00:00' AND '2023-10-10 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-11 00:00:00' AND '2023-10-11 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-12 00:00:00' AND '2023-10-12 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000190s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-13 00:00:00' AND '2023-10-13 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-14 00:00:00' AND '2023-10-14 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-15 00:00:00' AND '2023-10-15 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000197s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-16 00:00:00' AND '2023-10-16 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000203s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-17 00:00:00' AND '2023-10-17 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-18 00:00:00' AND '2023-10-18 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-19 00:00:00' AND '2023-10-19 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-20 00:00:00' AND '2023-10-20 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-21 00:00:00' AND '2023-10-21 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000192s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-22 00:00:00' AND '2023-10-22 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-23 00:00:00' AND '2023-10-23 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-24 00:00:00' AND '2023-10-24 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000192s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-26 00:00:00' AND '2023-10-26 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-27 00:00:00' AND '2023-10-27 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000202s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-28 00:00:00' AND '2023-10-28 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000190s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-29 00:00:00' AND '2023-10-29 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000203s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-30 00:00:00' AND '2023-10-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-31 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T00:49:06+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000402s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'  LIMIT 1 [ RunTime:0.000222s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000190s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T00:49:06+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[2023-10-25T08:37:00+08:00][sql] CONNECT:[ UseTime:0.000365s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T08:37:00+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000687s ]
+[2023-10-25T08:37:00+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000460s ]
+[2023-10-25T15:55:04+08:00][sql] CONNECT:[ UseTime:0.000344s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T15:55:04+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000620s ]
+[2023-10-25T15:55:04+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000320s ]
+[2023-10-25T15:55:07+08:00][sql] CONNECT:[ UseTime:0.000343s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T15:55:07+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.013965s ]
+[2023-10-25T15:55:07+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_enterprise` LIMIT 1 [ RunTime:0.000934s ]
+[2023-10-25T15:55:07+08:00][sql] SELECT * FROM `nianbao_enterprise` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000223s ]
+[2023-10-25T16:06:28+08:00][sql] CONNECT:[ UseTime:0.000295s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T16:06:28+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000506s ]
+[2023-10-25T16:06:28+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000333s ]
+[2023-10-25T16:06:28+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_node` [ RunTime:0.000653s ]
+[2023-10-25T16:06:28+08:00][sql] SELECT `node_id`,`pid`,`title`,`status`,`icon`,`sortid`,`path` FROM `nianbao_node` WHERE  `status` = 1  AND `type` = 1 ORDER BY `sortid` ASC [ RunTime:0.000375s ]
+[2023-10-25T16:06:28+08:00][sql] CONNECT:[ UseTime:0.000355s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T16:06:28+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000599s ]
+[2023-10-25T16:06:28+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000264s ]
+[2023-10-25T16:06:29+08:00][sql] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T16:06:29+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.019630s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-01 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000379s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-02 00:00:00' AND '2023-10-02 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000239s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-03 00:00:00' AND '2023-10-03 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000225s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-04 00:00:00' AND '2023-10-04 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-05 00:00:00' AND '2023-10-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-06 00:00:00' AND '2023-10-06 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-07 00:00:00' AND '2023-10-07 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-08 00:00:00' AND '2023-10-08 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-09 00:00:00' AND '2023-10-09 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-10 00:00:00' AND '2023-10-10 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-11 00:00:00' AND '2023-10-11 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-12 00:00:00' AND '2023-10-12 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000221s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-13 00:00:00' AND '2023-10-13 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000200s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-14 00:00:00' AND '2023-10-14 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000207s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-15 00:00:00' AND '2023-10-15 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000202s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-16 00:00:00' AND '2023-10-16 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-17 00:00:00' AND '2023-10-17 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000200s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-18 00:00:00' AND '2023-10-18 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000192s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-19 00:00:00' AND '2023-10-19 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-20 00:00:00' AND '2023-10-20 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-21 00:00:00' AND '2023-10-21 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-22 00:00:00' AND '2023-10-22 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000231s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-23 00:00:00' AND '2023-10-23 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000202s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-24 00:00:00' AND '2023-10-24 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-26 00:00:00' AND '2023-10-26 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-27 00:00:00' AND '2023-10-27 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000203s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-28 00:00:00' AND '2023-10-28 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-29 00:00:00' AND '2023-10-29 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-30 00:00:00' AND '2023-10-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000190s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-31 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[2023-10-25T16:06:29+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000508s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'  LIMIT 1 [ RunTime:0.000262s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000177s ]
+[2023-10-25T16:06:29+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T16:06:32+08:00][sql] CONNECT:[ UseTime:0.000416s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T16:06:32+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000658s ]
+[2023-10-25T16:06:32+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_enterprise` LIMIT 1 [ RunTime:0.000703s ]
+[2023-10-25T16:06:32+08:00][sql] SELECT * FROM `nianbao_enterprise` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000214s ]
+[2023-10-25T18:04:27+08:00][sql] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T18:04:27+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000643s ]
+[2023-10-25T18:04:27+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000311s ]
+[2023-10-25T18:05:02+08:00][sql] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T18:05:02+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_admin_user` [ RunTime:0.000675s ]
+[2023-10-25T18:05:02+08:00][sql] SELECT `a`.`user_id`,`a`.`name`,a.user as username,`a`.`status`,a.role_id as user_role_ids,`b`.`role_id`,b.name as role_name,b.status as role_status,`b`.`access` FROM `nianbao_admin_user` `a` INNER JOIN `nianbao_role` `b` ON a.role_id in(b.role_id) WHERE  `a`.`user` = 'admin'  AND `a`.`pwd` = '7b2ad4e307d5b3ec9e786054225d0985' LIMIT 1 [ RunTime:0.000469s ]
+[2023-10-25T18:05:02+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_log` [ RunTime:0.000673s ]
+[2023-10-25T18:05:02+08:00][sql] INSERT INTO `nianbao_log` SET `application_name` = 'admin' , `username` = 'admin' , `url` = 'https://ss.xyaa.vip/admin/Login/index.html' , `ip` = '182.39.156.22' , `useragent` = 'Mozilla/5.0 (Linux; Android 12; MIZ-BD00 Build/HinovaMIZ-BD00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 XWEB/5317 MMWEBSDK/20230805 MMWEBID/2941 MicroMessenger/8.0.42.2460(0x28002A8A) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64' , `create_time` = 1698228302 , `type` = 1 [ RunTime:0.004406s ]
+[2023-10-25T18:05:03+08:00][sql] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T18:05:03+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_node` [ RunTime:0.000636s ]
+[2023-10-25T18:05:03+08:00][sql] SELECT `node_id`,`pid`,`title`,`status`,`icon`,`sortid`,`path` FROM `nianbao_node` WHERE  `status` = 1  AND `type` = 1 ORDER BY `sortid` ASC [ RunTime:0.000347s ]
+[2023-10-25T18:05:05+08:00][sql] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T18:05:05+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000751s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-01 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000352s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-02 00:00:00' AND '2023-10-02 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000245s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-03 00:00:00' AND '2023-10-03 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-04 00:00:00' AND '2023-10-04 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-05 00:00:00' AND '2023-10-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-06 00:00:00' AND '2023-10-06 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-07 00:00:00' AND '2023-10-07 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-08 00:00:00' AND '2023-10-08 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-09 00:00:00' AND '2023-10-09 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-10 00:00:00' AND '2023-10-10 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000173s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-11 00:00:00' AND '2023-10-11 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000175s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-12 00:00:00' AND '2023-10-12 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-13 00:00:00' AND '2023-10-13 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-14 00:00:00' AND '2023-10-14 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000171s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-15 00:00:00' AND '2023-10-15 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-16 00:00:00' AND '2023-10-16 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-17 00:00:00' AND '2023-10-17 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-18 00:00:00' AND '2023-10-18 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-19 00:00:00' AND '2023-10-19 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000170s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-20 00:00:00' AND '2023-10-20 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000171s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-21 00:00:00' AND '2023-10-21 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-22 00:00:00' AND '2023-10-22 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-23 00:00:00' AND '2023-10-23 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000201s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-24 00:00:00' AND '2023-10-24 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-26 00:00:00' AND '2023-10-26 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000179s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-27 00:00:00' AND '2023-10-27 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-28 00:00:00' AND '2023-10-28 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000201s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-29 00:00:00' AND '2023-10-29 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-30 00:00:00' AND '2023-10-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-31 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T18:05:05+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000529s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'  LIMIT 1 [ RunTime:0.000251s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000223s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000184s ]
+[2023-10-25T18:05:05+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[2023-10-25T18:05:15+08:00][sql] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T18:05:15+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000639s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-01 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000325s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-02 00:00:00' AND '2023-10-02 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000208s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-03 00:00:00' AND '2023-10-03 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-04 00:00:00' AND '2023-10-04 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000198s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-05 00:00:00' AND '2023-10-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-06 00:00:00' AND '2023-10-06 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-07 00:00:00' AND '2023-10-07 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-08 00:00:00' AND '2023-10-08 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000172s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-09 00:00:00' AND '2023-10-09 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-10 00:00:00' AND '2023-10-10 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-11 00:00:00' AND '2023-10-11 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-12 00:00:00' AND '2023-10-12 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-13 00:00:00' AND '2023-10-13 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000171s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-14 00:00:00' AND '2023-10-14 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-15 00:00:00' AND '2023-10-15 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-16 00:00:00' AND '2023-10-16 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-17 00:00:00' AND '2023-10-17 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-18 00:00:00' AND '2023-10-18 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-19 00:00:00' AND '2023-10-19 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-20 00:00:00' AND '2023-10-20 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-21 00:00:00' AND '2023-10-21 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000190s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-22 00:00:00' AND '2023-10-22 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000190s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-23 00:00:00' AND '2023-10-23 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-24 00:00:00' AND '2023-10-24 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-26 00:00:00' AND '2023-10-26 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-27 00:00:00' AND '2023-10-27 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000203s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-28 00:00:00' AND '2023-10-28 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-29 00:00:00' AND '2023-10-29 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-30 00:00:00' AND '2023-10-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-31 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[2023-10-25T18:05:15+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000392s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'  LIMIT 1 [ RunTime:0.000222s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000162s ]
+[2023-10-25T18:05:15+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[2023-10-25T18:05:35+08:00][sql] CONNECT:[ UseTime:0.000324s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T18:05:35+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000505s ]
+[2023-10-25T18:05:35+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000266s ]
+[2023-10-25T18:05:36+08:00][sql] CONNECT:[ UseTime:0.000349s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T18:05:36+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000559s ]
+[2023-10-25T18:05:36+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` LIMIT 1 [ RunTime:0.000245s ]
+[2023-10-25T18:05:36+08:00][sql] SELECT `id`,`nickname`,`openid`,`avatar`,`mobile`,`is_delete`,`create_time` FROM `nianbao_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000208s ]
+[2023-10-25T18:05:38+08:00][sql] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T18:05:38+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000561s ]
+[2023-10-25T18:05:38+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `is_pay` = 1 LIMIT 1 [ RunTime:0.000253s ]
+[2023-10-25T18:05:38+08:00][sql] SELECT * FROM `nianbao_order` WHERE  `is_pay` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000300s ]
+[2023-10-25T18:06:17+08:00][sql] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T18:06:17+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000599s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-01 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000312s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-02 00:00:00' AND '2023-10-02 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000218s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-03 00:00:00' AND '2023-10-03 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000197s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-04 00:00:00' AND '2023-10-04 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000204s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-05 00:00:00' AND '2023-10-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-06 00:00:00' AND '2023-10-06 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-07 00:00:00' AND '2023-10-07 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-08 00:00:00' AND '2023-10-08 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000172s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-09 00:00:00' AND '2023-10-09 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-10 00:00:00' AND '2023-10-10 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000170s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-11 00:00:00' AND '2023-10-11 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-12 00:00:00' AND '2023-10-12 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-13 00:00:00' AND '2023-10-13 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000171s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-14 00:00:00' AND '2023-10-14 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-15 00:00:00' AND '2023-10-15 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000170s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-16 00:00:00' AND '2023-10-16 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000179s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-17 00:00:00' AND '2023-10-17 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-18 00:00:00' AND '2023-10-18 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000169s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-19 00:00:00' AND '2023-10-19 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-20 00:00:00' AND '2023-10-20 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000169s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-21 00:00:00' AND '2023-10-21 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-22 00:00:00' AND '2023-10-22 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-23 00:00:00' AND '2023-10-23 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-24 00:00:00' AND '2023-10-24 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000192s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-26 00:00:00' AND '2023-10-26 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000214s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-27 00:00:00' AND '2023-10-27 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-28 00:00:00' AND '2023-10-28 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-29 00:00:00' AND '2023-10-29 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-30 00:00:00' AND '2023-10-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-31 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000203s ]
+[2023-10-25T18:06:17+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000405s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'  LIMIT 1 [ RunTime:0.000221s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000200s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000181s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000170s ]
+[2023-10-25T18:06:17+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[2023-10-25T18:15:11+08:00][sql] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T18:15:11+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000504s ]
+[2023-10-25T18:15:11+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000298s ]
+[2023-10-25T18:15:13+08:00][sql] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T18:15:13+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_node` [ RunTime:0.000593s ]
+[2023-10-25T18:15:13+08:00][sql] SELECT `node_id`,`pid`,`title`,`status`,`icon`,`sortid`,`path` FROM `nianbao_node` WHERE  `status` = 1  AND `type` = 1 ORDER BY `sortid` ASC [ RunTime:0.000316s ]
+[2023-10-25T18:15:15+08:00][sql] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T18:15:15+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000679s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-01 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000325s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-02 00:00:00' AND '2023-10-02 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000296s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-03 00:00:00' AND '2023-10-03 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000228s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-04 00:00:00' AND '2023-10-04 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000229s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-05 00:00:00' AND '2023-10-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-06 00:00:00' AND '2023-10-06 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-07 00:00:00' AND '2023-10-07 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-08 00:00:00' AND '2023-10-08 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-09 00:00:00' AND '2023-10-09 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-10 00:00:00' AND '2023-10-10 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000197s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-11 00:00:00' AND '2023-10-11 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-12 00:00:00' AND '2023-10-12 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-13 00:00:00' AND '2023-10-13 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-14 00:00:00' AND '2023-10-14 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-15 00:00:00' AND '2023-10-15 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000209s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-16 00:00:00' AND '2023-10-16 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-17 00:00:00' AND '2023-10-17 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-18 00:00:00' AND '2023-10-18 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-19 00:00:00' AND '2023-10-19 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-20 00:00:00' AND '2023-10-20 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-21 00:00:00' AND '2023-10-21 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-22 00:00:00' AND '2023-10-22 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-23 00:00:00' AND '2023-10-23 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-24 00:00:00' AND '2023-10-24 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000198s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-26 00:00:00' AND '2023-10-26 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-27 00:00:00' AND '2023-10-27 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-28 00:00:00' AND '2023-10-28 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-29 00:00:00' AND '2023-10-29 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000192s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-30 00:00:00' AND '2023-10-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-31 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T18:15:15+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000402s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'  LIMIT 1 [ RunTime:0.000215s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000200s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000192s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T18:15:15+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2023-10-25T22:25:49+08:00][sql] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:25:49+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000489s ]
+[2023-10-25T22:25:49+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000254s ]
+[2023-10-25T22:25:59+08:00][sql] CONNECT:[ UseTime:0.000331s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:25:59+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_admin_user` [ RunTime:0.000593s ]
+[2023-10-25T22:25:59+08:00][sql] SELECT `a`.`user_id`,`a`.`name`,a.user as username,`a`.`status`,a.role_id as user_role_ids,`b`.`role_id`,b.name as role_name,b.status as role_status,`b`.`access` FROM `nianbao_admin_user` `a` INNER JOIN `nianbao_role` `b` ON a.role_id in(b.role_id) WHERE  `a`.`user` = 'admin'  AND `a`.`pwd` = '7b2ad4e307d5b3ec9e786054225d0985' LIMIT 1 [ RunTime:0.000388s ]
+[2023-10-25T22:25:59+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_log` [ RunTime:0.000523s ]
+[2023-10-25T22:25:59+08:00][sql] INSERT INTO `nianbao_log` SET `application_name` = 'admin' , `username` = 'admin' , `url` = 'https://ss.xyaa.vip/admin/Login/index.html' , `ip` = '140.250.227.35' , `useragent` = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36' , `create_time` = 1698243959 , `type` = 1 [ RunTime:0.003592s ]
+[2023-10-25T22:26:00+08:00][sql] CONNECT:[ UseTime:0.000327s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:26:00+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_node` [ RunTime:0.000640s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT `node_id`,`pid`,`title`,`status`,`icon`,`sortid`,`path` FROM `nianbao_node` WHERE  `status` = 1  AND `type` = 1 ORDER BY `sortid` ASC [ RunTime:0.000416s ]
+[2023-10-25T22:26:00+08:00][sql] CONNECT:[ UseTime:0.000327s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:26:00+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000704s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-01 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000350s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-02 00:00:00' AND '2023-10-02 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000217s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-03 00:00:00' AND '2023-10-03 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000223s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-04 00:00:00' AND '2023-10-04 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-05 00:00:00' AND '2023-10-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-06 00:00:00' AND '2023-10-06 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-07 00:00:00' AND '2023-10-07 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000192s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-08 00:00:00' AND '2023-10-08 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-09 00:00:00' AND '2023-10-09 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000173s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-10 00:00:00' AND '2023-10-10 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000209s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-11 00:00:00' AND '2023-10-11 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-12 00:00:00' AND '2023-10-12 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000179s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-13 00:00:00' AND '2023-10-13 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-14 00:00:00' AND '2023-10-14 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-15 00:00:00' AND '2023-10-15 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000200s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-16 00:00:00' AND '2023-10-16 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-17 00:00:00' AND '2023-10-17 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-18 00:00:00' AND '2023-10-18 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000179s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-19 00:00:00' AND '2023-10-19 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-20 00:00:00' AND '2023-10-20 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000208s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-21 00:00:00' AND '2023-10-21 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-22 00:00:00' AND '2023-10-22 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-23 00:00:00' AND '2023-10-23 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-24 00:00:00' AND '2023-10-24 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000192s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-26 00:00:00' AND '2023-10-26 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-27 00:00:00' AND '2023-10-27 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000216s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-28 00:00:00' AND '2023-10-28 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-29 00:00:00' AND '2023-10-29 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000211s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-30 00:00:00' AND '2023-10-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-31 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[2023-10-25T22:26:00+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000407s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'  LIMIT 1 [ RunTime:0.000279s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000200s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000168s ]
+[2023-10-25T22:26:00+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[2023-10-25T22:26:10+08:00][sql] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:26:10+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000465s ]
+[2023-10-25T22:26:10+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000278s ]
+[2023-10-25T22:26:16+08:00][sql] CONNECT:[ UseTime:0.000359s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:26:16+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_enterprise` [ RunTime:0.000526s ]
+[2023-10-25T22:26:16+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_enterprise` LIMIT 1 [ RunTime:0.000661s ]
+[2023-10-25T22:26:16+08:00][sql] SELECT * FROM `nianbao_enterprise` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000189s ]
+[2023-10-25T22:26:26+08:00][sql] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:26:26+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000582s ]
+[2023-10-25T22:26:26+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `is_pay` = 1 LIMIT 1 [ RunTime:0.000281s ]
+[2023-10-25T22:26:26+08:00][sql] SELECT * FROM `nianbao_order` WHERE  `is_pay` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000285s ]
+[2023-10-25T22:26:28+08:00][sql] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:26:28+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000459s ]
+[2023-10-25T22:26:28+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000259s ]
+[2023-10-25T22:26:38+08:00][sql] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:26:38+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_file` [ RunTime:0.013909s ]
+[2023-10-25T22:26:38+08:00][sql] SELECT `disk` FROM `nianbao_file` WHERE  `filepath` = 'https://yqgy.xyaa.vip/uploads/admin/202310/65373dac20855.jpg' LIMIT 1 [ RunTime:0.000271s ]
+[2023-10-25T22:26:38+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000364s ]
+[2023-10-25T22:26:38+08:00][sql] SELECT `data` FROM `nianbao_base_config` WHERE  `name` = 'domain' LIMIT 1 [ RunTime:0.000210s ]
+[2023-10-25T22:26:38+08:00][sql] DELETE FROM `nianbao_file` WHERE  `filepath` = 'https://yqgy.xyaa.vip/uploads/admin/202310/65373dac20855.jpg' [ RunTime:0.012494s ]
+[2023-10-25T22:26:40+08:00][sql] CONNECT:[ UseTime:0.000351s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:26:40+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_file` [ RunTime:0.000520s ]
+[2023-10-25T22:26:40+08:00][sql] SELECT `filepath` FROM `nianbao_file` WHERE  `hash` = '71ffeb9df222fc0c3b207e39cb11f2b5' LIMIT 1 [ RunTime:0.000226s ]
+[2023-10-25T22:26:40+08:00][sql] INSERT INTO `nianbao_file` SET `filepath` = 'https://ss.xyaa.vip/uploads/admin/202310/653925a0522e5.jpg' , `hash` = '71ffeb9df222fc0c3b207e39cb11f2b5' , `create_time` = 1698244000 , `disk` = 'local' , `type` = 1 [ RunTime:0.007510s ]
+[2023-10-25T22:26:41+08:00][sql] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:26:41+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000478s ]
+[2023-10-25T22:26:41+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000277s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '测试站点别修改密码'  WHERE  `name` = 'site_title' [ RunTime:0.004088s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://ss.xyaa.vip/uploads/admin/202310/653925a0522e5.jpg'  WHERE  `name` = 'logo' [ RunTime:0.003554s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'keyword' [ RunTime:0.003559s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '企业年报'  WHERE  `name` = 'descrip' [ RunTime:0.003559s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '版权'  WHERE  `name` = 'copyright' [ RunTime:0.003550s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '100'  WHERE  `name` = 'filesize' [ RunTime:0.003744s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'gif,png,jpg,jpeg,doc,docx,xls,xlsx,csv,pdf,rar,zip,txt,mp4,flv,wgt,pem'  WHERE  `name` = 'filetype' [ RunTime:0.003385s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '0'  WHERE  `name` = 'water_status' [ RunTime:0.003480s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '5'  WHERE  `name` = 'water_position' [ RunTime:0.003849s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://ss.xyaa.vip'  WHERE  `name` = 'domain' [ RunTime:0.003579s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '90'  WHERE  `name` = 'water_alpha' [ RunTime:0.003634s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '99ffa31a7c281d4f44d468c3a4b0ff82'  WHERE  `name` = 'appsecret' [ RunTime:0.006142s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'wx8d0eb4507931762c'  WHERE  `name` = 'appid' [ RunTime:0.004232s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://ss.xyaa.vip/uploads/admin/202310/6533a97ad3a61.jpg'  WHERE  `name` = 'db_img' [ RunTime:0.003433s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://nianbao.2751.cn/uploads/admin/202306/649e8f884afa2.png'  WHERE  `name` = 'wxlogo' [ RunTime:0.003247s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '年报通用户协议'  WHERE  `name` = 'agreement_title' [ RunTime:0.003465s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 会知快审(以下简称&ldquo;年报通&rdquo;)。确保用户的数据安全和隐私保护是我们的首要任务，本隐私政策载明了您访问和使用我们的产品和服务时所收集的数据及其处理方式。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;请您在继续使用我们的产品前务必认真仔细阅读并确认充分理解本隐私政策全部规则和要点，一旦您选择使用，即视为您同意本隐私政策的全部内容，同意我们按其收集和使用您的相关信息。如您在在阅读过程中对本政策有任何疑问，可联系我们的客服咨询，请通过年报通中的在线客服与我们取得联系。如您不同意相关协议或其中的任何条款的，您应停止使用我们的产品和服务。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 本隐私政策帮助您了解以下内容：</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 一、我们如何收集和使用您的个人信息；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 二、我们如何存储和保护您的个人信息；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 三、我们如何共享、转让、公开披露您的个人信息；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 一、我们如何收集和使用您的个人信息</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 个人信息是指以电子或者其他方式记录的能够单独或者与其他信息，结合识别特定自然人身份或者反映特定自然人活动情况的各种信息。我们根据《中华人民共和国网络安全法》和《信息安全技术个人信息安全规范》(GB/T35273-2017)以及其它相关法律法规的要求，并严格遵循正当、合法、必要的原则，出于您使用我们提供的服务和/或产品等过程中而收集和使用您的个人信息，包括但不限于电话号码等。在怒初次使用本系统时，需要您提供手机号进行登录。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;二、我们如何存储和保护您的个人信息</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;作为一般规则，我们仅在实现信息收集目的所需的时间内保留您的个人信息。我们会在对于管理与您之间的关系严格必要的时间内保留您的人信息。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;当您的个人信息对于我们的法定义务或法定时效对应的目的或档案不再必要时，我们确保将其完全删除或匿名化。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;我们使用符合业界标准的安全防护措施保护您提供的个人信息，并加密其中的关键数据，防止其遭到未经授权访问、公开披露、使用、修改、损坏或丢失。我们会采取一切合理可行的措施，保护您的个人信息。我们会使用加密技术确保数据的保密性;我们会使用受信赖的保护机制防止数据遭到恶意攻击。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;为了加强对隐私数据的保护，我们在收集时就已对其进行了脱敏处理，即使在我们自己的数据库中，也不会储存具有关联性的、明文的隐私数据。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;三、我们如何共享、转让、公开披露您的个人信息在管理我们的日常业务活动所需要时，为追求合法利益以更好地服务客户，我们将合规且恰当的使用您的个人信息。我们不会主动共享或转让你的信息至任何第三方，如存在确需共享或转让时，开发者应当直接征得或确认第三方征得你的单独同意开发者承诺，不会对外公开披露你的信息，如必须公开披露时，我们会向你告知公开披露的目的、披露信息的类型及可能涉及的信息，并征得你的单独同意。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;在以下情形中，共享、转让、公开披露您的个人信息无需事先征得您的授权同意</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;1、与国家安全、国防安全直接相关的；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;2、与犯罪侦查、起诉、审判和判决执行等直接相关的；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;3、出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;4、您自行向社会公众公开的个人信息；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;5、从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道的;</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;6、根据个人信息主体要求签订和履行合同所必需的；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;7、用于维护所提供的产品或服务的安全稳定运行所必需的，例如发现、处置产品或服务的故障；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;8、法律法规规定的其他情形。若你认为开发者未遵守上述约定，或有其他的投诉建议、或未成年人个人信息保护相关问题，可通过以下方式与开发者联系;或者向微信进行投诉。</span></p>'  WHERE  `name` = 'privacy_content' [ RunTime:0.003902s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 会知快审(以下简称&ldquo;本平台&rdquo;)，为经营主体提供年报代报、经营异常移出等业务。本平台属于第三方征信机构，为付费用户提供相关代办服务。本协议仅对付费用户与我司就办理代办年报报送、经营异常移出等事宜所签署的具有法律约束力的文件。您已充分阅读、理解并接受本协议的全部内容，知悉支付费用即表示您委托我司全权为您办理年报报送或经营异常移出事宜，我司将通过网络在线方式为您提供代办服务。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 一、您知悉，按照《企业信息公示暂行条例》《个体工商户年度报告暂行办法》等法规文件，报送年报是您的法定义务。您也知悉，通过市场监督管理部门渠道报送年报、移除经营异常是免费的，通过我司代办业务您需向我司支付代报费用。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 二、您知悉，为办理业务之必要，您需要向我司提供包括但不限于法定代表人或负责人身份证、手机号经营状况等资料，您应当保证资料的真实性、完整性合法性。我司将根据您的委托，按照管辖地市场监督管理部门的规定，及时为您办理相关业务</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 三、在您提交相关资料后，我司将在15个工作日完成代办工作，如在15个工作日内未能办结的，我司将根据您的要求或者继续办理或者全额退款。要求退款的我司将在之后5个工作日内完成:要求继续办理的，您将不追究我司在承诺时间内未能办结的任何责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 四、年报报送成功或经营异常移出成功或我司向您全额退款即意味着您与我司委托代理关系终止，本协议亦随即终止。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 五、我司受理您的委托后，将忠实履行代理义务。如您在业务办理过程中有任何异议，均可通过本协议第八条联系方式向我司反映，我司将及时进行处理。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 六、针对为完成年报报送您所提交的资料(见本协议第三条)，您知晓并同意按以下方式处理: 1、凡业务办理成功的，您所提交的资料将保存至下一年度的年报报送截止日，但您选择&ldquo;不公开&rdquo;的内容我司将不做保存;2、业务未办理成功或您要求终止委托关系而全额退款的，我司仅保存您的联系方式(含手机号)，其他资料不做保存: 3、凡我司保存的资料，我司将采取严格的保密措施，未经您同意，不公开、不向任何第三方提供，所保存的联系方式也仅用于与您本人联系。 4因我司违背上述约定而引发的一切后果由我司承担。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 七、我司为您提供人工电话服务，服务电话: 15668132677;您可通过该电话咨询业务、了解进程、反映问题、进行投诉等。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 八、如我司未违背本协议约定，您不得向任何第三方发布、提供有损我司利益、名誉的信息，否则我司有权追究您的法律责任</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 九、如您与我司就本协议内容或其执行发生任何争议，双方应尽力友好协商解决;协商不成时，应向协议签订地有管辖权的人民法院提起诉讼。</span></p>'  WHERE  `name` = 'agreement_content' [ RunTime:0.003471s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '年报通隐私政策'  WHERE  `name` = 'privacy_title' [ RunTime:0.003266s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '年报通'  WHERE  `name` = 'wxtitle' [ RunTime:0.003243s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '290'  WHERE  `name` = 'specialfee' [ RunTime:0.003258s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '298'  WHERE  `name` = 'normalfee' [ RunTime:0.003208s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '代理报送年报服务协议'  WHERE  `name` = 'submitted_title' [ RunTime:0.007152s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;一、本协议将成为您与我司就办理年报报送事宜所签署的具有法律约束力的文件。您已充分阅读、理解并接受本协议的全部内容，知悉支付年报代报费用即表示您委托我司全权为您办理年报报送事宜，我司将通过网络在线方式为您提供年报代报服务</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;二、您知悉，按照《企业信息公示暂行条例》《个体工商户年度报告暂行办法》等法规文件，报送年报是您的法定义务。您也知悉，通过市场监督管理部门渠道报送年报是免费的，通过我司代办年报报送您需向我司支付200元代报费用。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;三、您知悉，为办理年报报送之必要，您需要向我司提供包括但不限于法定代表人或负责人身份证、手机号、经营状况等资料，您应当保证资料的真实性、完整性、合法性。我司将根据您的委托，按照管辖地市场监督管理部门的规定，及时为您办理年报报送的相关事宜。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;四、在您提交年报报送资料后，我司将在15个工作日完成年报报送工作，报送成功的标志是您的年报信息在&ldquo;全国企业信用信息公示系统&rdquo;中公示或在辖区市场监管部门网站公示。如在15个工作日内未能办结的，我司将根据您的要求或者继续办理或者全额退款。要求退款的，我司将在之后5个工作日内完成;要求继续办理的，您将不追究我司在承诺时间内未能办结的任何责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;五、年报报送成功或我司向您全额退款即意味着您与我司委托代理关系终止，本协议亦随即终止。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;六、因年报的报送截止日期为每年的6月30日，故我司原则上不再受理6月20日以后的委托。如您仍选择委托我司办理年报代报的，则意味着您自愿承担在6月30日之前报送不成功的风险，届时因未在截止时间前报送成功所产生的一切法律后果(包括但不限于经营异常、行政处罚等)由您自行承担，我司不因此承担任何责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;七、我司受理您的年报报送委托后，将忠实履行代理义务。如您在年报代报过程中有任何异议，均可通过本协议第九条联系方式向我司反映，我司将及时进行处理。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;八、针对为完成年报报送您所提交的资料(见本协议第三条)，您知晓并同意按以下方式处理：</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;1、凡报送成功的，您所提交的资料将保存至下一年度的年报报送截止日，但您选择&ldquo;不公开&rdquo;的内容我司将不做保存；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;2、已提交年报资料但报送未成功或您要求终止委托关系而全额退款的，我司仅保存您的联系方式(含手机号)，其他资料不做保存；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;3、凡我司保存的资料，我司将采取严格的保密措施，未经您同意，不公开、不向任何第三方提供，所保存的联系方式也仅用于与您本人联系。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;4、因我司违背上述约定而引发的一切后果由我司承担。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;九、我司为您提供人工电话服务，服务电话: 15668132677;您可通过该电话咨询业务、了解进程、反映问题、进行投诉等。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;十、如我司未违背本协议约定，您不得向任何第三方发布、提供有损我司利益、名誉的信息，否则我司有权追究您的法律责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;十一、如您与我司就本协议内容或其执行发生任何争议，双方应尽力友好协商解决:协商不成时，应向协议签订地有管辖权的人民法院提起诉讼。</span></p>'  WHERE  `name` = 'normal_content' [ RunTime:0.003900s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;一、本协议将成为您与我司就办理年报报送事宜所签署的具有法律约束力的文件。您已充分阅读、理解并接受本协议的全部内容，知悉支付年报代报费用即表示您委托我司全权为您办理年报报送事宜，我司将通过网络在线方式为您提供年报代报服务</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;二、您知悉，按照《企业信息公示暂行条例》《个体工商户年度报告暂行办法》等法规文件，报送年报是您的法定义务。您也知悉，通过市场监督管理部门渠道报送年报是免费的，通过我司代办年报报送您需向我司支付298元代报费用。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;三、您知悉，为办理年报报送之必要，您需要向我司提供包括但不限于法定代表人或负责人身份证、手机号、经营状况等资料，您应当保证资料的真实性、完整性、合法性。我司将根据您的委托，按照管辖地市场监督管理部门的规定，及时为您办理年报报送的相关事宜。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;四、在您提交年报报送资料后，我司将在15个工作日完成年报报送工作，报送成功的标志是您的年报信息在&ldquo;全国企业信用信息公示系统&rdquo;中公示或在辖区市场监管部门网站公示。如在15个工作日内未能办结的，我司将根据您的要求或者继续办理或者全额退款。要求退款的，我司将在之后5个工作日内完成;要求继续办理的，您将不追究我司在承诺时间内未能办结的任何责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;五、年报报送成功或我司向您全额退款即意味着您与我司委托代理关系终止，本协议亦随即终止。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;六、因年报的报送截止日期为每年的6月30日，故我司原则上不再受理6月20日以后的委托。如您仍选择委托我司办理年报代报的，则意味着您自愿承担在6月30日之前报送不成功的风险，届时因未在截止时间前报送成功所产生的一切法律后果(包括但不限于经营异常、行政处罚等)由您自行承担，我司不因此承担任何责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;七、我司受理您的年报报送委托后，将忠实履行代理义务。如您在年报代报过程中有任何异议，均可通过本协议第九条联系方式向我司反映，我司将及时进行处理。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;八、针对为完成年报报送您所提交的资料(见本协议第三条)，您知晓并同意按以下方式处理：</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;1、凡报送成功的，您所提交的资料将保存至下一年度的年报报送截止日，但您选择&ldquo;不公开&rdquo;的内容我司将不做保存；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;2、已提交年报资料但报送未成功或您要求终止委托关系而全额退款的，我司仅保存您的联系方式(含手机号)，其他资料不做保存；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;3、凡我司保存的资料，我司将采取严格的保密措施，未经您同意，不公开、不向任何第三方提供，所保存的联系方式也仅用于与您本人联系。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;4、因我司违背上述约定而引发的一切后果由我司承担。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;九、我司为您提供人工电话服务，服务电话: 13952254991;您可通过该电话咨询业务、了解进程、反映问题、进行投诉等。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;十、如我司未违背本协议约定，您不得向任何第三方发布、提供有损我司利益、名誉的信息，否则我司有权追究您的法律责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;十一、如您与我司就本协议内容或其执行发生任何争议，双方应尽力友好协商解决:协商不成时，应向协议签订地有管辖权的人民法院提起诉讼。</span></p>'  WHERE  `name` = 'special_content' [ RunTime:0.003594s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '13952254991'  WHERE  `name` = 'service_telephone' [ RunTime:0.003545s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'key' [ RunTime:0.003324s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'secretkey' [ RunTime:0.005221s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1'  WHERE  `name` = 'type' [ RunTime:0.003526s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1624596206'  WHERE  `name` = 'mch_id' [ RunTime:0.003497s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'zccccccccccccccccccccccccccccccc'  WHERE  `name` = 'pay_secretkey' [ RunTime:0.003233s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'orgid' [ RunTime:0.003615s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'mno' [ RunTime:0.003780s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'privatekey' [ RunTime:0.003610s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'sxfpublic' [ RunTime:0.003398s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://ss.xyaa.vip/uploads/admin/202310/6533938372d97.png'  WHERE  `name` = 'topleft_logo' [ RunTime:0.003278s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://ss.xyaa.vip/uploads/admin/202310/653393883d2cd.png'  WHERE  `name` = 'topright_logo' [ RunTime:0.003169s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '会知快审，为经营主体提供年报代报服务的平台代报服务费200元，如办理不成功全额退款。'  WHERE  `name` = 'specialprompt' [ RunTime:0.003499s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '会知快审，为经营主体提供年报代报服务的平台代报服务费298元，如办理不成功全额退款。'  WHERE  `name` = 'normalprompt' [ RunTime:0.003368s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ' 会知快审由国家中小企业公共服务示范平台&中国中小企业协会信服委运营'  WHERE  `name` = 'bottom_copyright' [ RunTime:0.006682s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'article_link' [ RunTime:0.003359s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '本平台提供年报代办服务，方便快捷，如办理不成功可全额退款。'  WHERE  `name` = 'top_word' [ RunTime:0.003276s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'cert_path' [ RunTime:0.003327s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'key_path' [ RunTime:0.003419s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'hy_apiid' [ RunTime:0.003615s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'hy_apikey' [ RunTime:0.003283s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1'  WHERE  `name` = 'hy_type' [ RunTime:0.003481s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'shoptop_logo' [ RunTime:0.005152s ]
+[2023-10-25T22:26:41+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p>48阿达</p>'  WHERE  `name` = 'agreementcontent' [ RunTime:0.003946s ]
+[2023-10-25T22:27:30+08:00][sql] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:27:30+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000425s ]
+[2023-10-25T22:27:30+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000250s ]
+[2023-10-25T22:27:30+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000243s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '测试站点别修改密码'  WHERE  `name` = 'site_title' [ RunTime:0.007147s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://ss.xyaa.vip/uploads/admin/202310/653925a0522e5.jpg'  WHERE  `name` = 'logo' [ RunTime:0.004296s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'keyword' [ RunTime:0.005057s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '企业年报'  WHERE  `name` = 'descrip' [ RunTime:0.004216s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '版权'  WHERE  `name` = 'copyright' [ RunTime:0.003883s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '100'  WHERE  `name` = 'filesize' [ RunTime:0.004459s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'gif,png,jpg,jpeg,doc,docx,xls,xlsx,csv,pdf,rar,zip,txt,mp4,flv,wgt,pem'  WHERE  `name` = 'filetype' [ RunTime:0.005696s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '0'  WHERE  `name` = 'water_status' [ RunTime:0.005341s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '5'  WHERE  `name` = 'water_position' [ RunTime:0.005006s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://ss.xyaa.vip'  WHERE  `name` = 'domain' [ RunTime:0.004370s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '90'  WHERE  `name` = 'water_alpha' [ RunTime:0.004107s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '99ffa31a7c281d4f44d468c3a4b0ff82'  WHERE  `name` = 'appsecret' [ RunTime:0.004469s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'wx8d0eb4507931762c'  WHERE  `name` = 'appid' [ RunTime:0.005235s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://ss.xyaa.vip/uploads/admin/202310/6533a97ad3a61.jpg'  WHERE  `name` = 'db_img' [ RunTime:0.003834s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://nianbao.2751.cn/uploads/admin/202306/649e8f884afa2.png'  WHERE  `name` = 'wxlogo' [ RunTime:0.004688s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '年报通用户协议'  WHERE  `name` = 'agreement_title' [ RunTime:0.006127s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 云欣企业管理(以下简称&ldquo;年报通&rdquo;)。确保用户的数据安全和隐私保护是我们的首要任务，本隐私政策载明了您访问和使用我们的产品和服务时所收集的数据及其处理方式。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;请您在继续使用我们的产品前务必认真仔细阅读并确认充分理解本隐私政策全部规则和要点，一旦您选择使用，即视为您同意本隐私政策的全部内容，同意我们按其收集和使用您的相关信息。如您在在阅读过程中对本政策有任何疑问，可联系我们的客服咨询，请通过年报通中的在线客服与我们取得联系。如您不同意相关协议或其中的任何条款的，您应停止使用我们的产品和服务。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 本隐私政策帮助您了解以下内容：</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 一、我们如何收集和使用您的个人信息；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 二、我们如何存储和保护您的个人信息；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 三、我们如何共享、转让、公开披露您的个人信息；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 一、我们如何收集和使用您的个人信息</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 个人信息是指以电子或者其他方式记录的能够单独或者与其他信息，结合识别特定自然人身份或者反映特定自然人活动情况的各种信息。我们根据《中华人民共和国网络安全法》和《信息安全技术个人信息安全规范》(GB/T35273-2017)以及其它相关法律法规的要求，并严格遵循正当、合法、必要的原则，出于您使用我们提供的服务和/或产品等过程中而收集和使用您的个人信息，包括但不限于电话号码等。在怒初次使用本系统时，需要您提供手机号进行登录。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;二、我们如何存储和保护您的个人信息</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;作为一般规则，我们仅在实现信息收集目的所需的时间内保留您的个人信息。我们会在对于管理与您之间的关系严格必要的时间内保留您的人信息。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;当您的个人信息对于我们的法定义务或法定时效对应的目的或档案不再必要时，我们确保将其完全删除或匿名化。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;我们使用符合业界标准的安全防护措施保护您提供的个人信息，并加密其中的关键数据，防止其遭到未经授权访问、公开披露、使用、修改、损坏或丢失。我们会采取一切合理可行的措施，保护您的个人信息。我们会使用加密技术确保数据的保密性;我们会使用受信赖的保护机制防止数据遭到恶意攻击。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;为了加强对隐私数据的保护，我们在收集时就已对其进行了脱敏处理，即使在我们自己的数据库中，也不会储存具有关联性的、明文的隐私数据。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;三、我们如何共享、转让、公开披露您的个人信息在管理我们的日常业务活动所需要时，为追求合法利益以更好地服务客户，我们将合规且恰当的使用您的个人信息。我们不会主动共享或转让你的信息至任何第三方，如存在确需共享或转让时，开发者应当直接征得或确认第三方征得你的单独同意开发者承诺，不会对外公开披露你的信息，如必须公开披露时，我们会向你告知公开披露的目的、披露信息的类型及可能涉及的信息，并征得你的单独同意。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;在以下情形中，共享、转让、公开披露您的个人信息无需事先征得您的授权同意</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;1、与国家安全、国防安全直接相关的；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;2、与犯罪侦查、起诉、审判和判决执行等直接相关的；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;3、出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;4、您自行向社会公众公开的个人信息；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;5、从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道的;</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;6、根据个人信息主体要求签订和履行合同所必需的；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;7、用于维护所提供的产品或服务的安全稳定运行所必需的，例如发现、处置产品或服务的故障；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;8、法律法规规定的其他情形。若你认为开发者未遵守上述约定，或有其他的投诉建议、或未成年人个人信息保护相关问题，可通过以下方式与开发者联系;或者向微信进行投诉。</span></p>'  WHERE  `name` = 'privacy_content' [ RunTime:0.006254s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 云欣企业管理(以下简称&ldquo;本平台&rdquo;)，为经营主体提供年报代报、经营异常移出等业务。本平台属于第三方征信机构，为付费用户提供相关代办服务。本协议仅对付费用户与我司就办理代办年报报送、经营异常移出等事宜所签署的具有法律约束力的文件。您已充分阅读、理解并接受本协议的全部内容，知悉支付费用即表示您委托我司全权为您办理年报报送或经营异常移出事宜，我司将通过网络在线方式为您提供代办服务。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 一、您知悉，按照《企业信息公示暂行条例》《个体工商户年度报告暂行办法》等法规文件，报送年报是您的法定义务。您也知悉，通过市场监督管理部门渠道报送年报、移除经营异常是免费的，通过我司代办业务您需向我司支付代报费用。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 二、您知悉，为办理业务之必要，您需要向我司提供包括但不限于法定代表人或负责人身份证、手机号经营状况等资料，您应当保证资料的真实性、完整性合法性。我司将根据您的委托，按照管辖地市场监督管理部门的规定，及时为您办理相关业务</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 三、在您提交相关资料后，我司将在15个工作日完成代办工作，如在15个工作日内未能办结的，我司将根据您的要求或者继续办理或者全额退款。要求退款的我司将在之后5个工作日内完成:要求继续办理的，您将不追究我司在承诺时间内未能办结的任何责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 四、年报报送成功或经营异常移出成功或我司向您全额退款即意味着您与我司委托代理关系终止，本协议亦随即终止。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 五、我司受理您的委托后，将忠实履行代理义务。如您在业务办理过程中有任何异议，均可通过本协议第八条联系方式向我司反映，我司将及时进行处理。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp; 六、针对为完成年报报送您所提交的资料(见本协议第三条)，您知晓并同意按以下方式处理: 1、凡业务办理成功的，您所提交的资料将保存至下一年度的年报报送截止日，但您选择&ldquo;不公开&rdquo;的内容我司将不做保存;2、业务未办理成功或您要求终止委托关系而全额退款的，我司仅保存您的联系方式(含手机号)，其他资料不做保存: 3、凡我司保存的资料，我司将采取严格的保密措施，未经您同意，不公开、不向任何第三方提供，所保存的联系方式也仅用于与您本人联系。 4因我司违背上述约定而引发的一切后果由我司承担。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 七、我司为您提供人工电话服务，服务电话: 15668132677;您可通过该电话咨询业务、了解进程、反映问题、进行投诉等。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 八、如我司未违背本协议约定，您不得向任何第三方发布、提供有损我司利益、名誉的信息，否则我司有权追究您的法律责任</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; 九、如您与我司就本协议内容或其执行发生任何争议，双方应尽力友好协商解决;协商不成时，应向协议签订地有管辖权的人民法院提起诉讼。</span></p>'  WHERE  `name` = 'agreement_content' [ RunTime:0.004086s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '云欣企业管理年报通隐私政策'  WHERE  `name` = 'privacy_title' [ RunTime:0.004436s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '年报通'  WHERE  `name` = 'wxtitle' [ RunTime:0.004510s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '290'  WHERE  `name` = 'specialfee' [ RunTime:0.003704s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '298'  WHERE  `name` = 'normalfee' [ RunTime:0.004279s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '代理报送年报服务协议'  WHERE  `name` = 'submitted_title' [ RunTime:0.003279s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;一、本协议将成为您与我司就办理年报报送事宜所签署的具有法律约束力的文件。您已充分阅读、理解并接受本协议的全部内容，知悉支付年报代报费用即表示您委托我司全权为您办理年报报送事宜，我司将通过网络在线方式为您提供年报代报服务</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;二、您知悉，按照《企业信息公示暂行条例》《个体工商户年度报告暂行办法》等法规文件，报送年报是您的法定义务。您也知悉，通过市场监督管理部门渠道报送年报是免费的，通过我司代办年报报送您需向我司支付200元代报费用。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;三、您知悉，为办理年报报送之必要，您需要向我司提供包括但不限于法定代表人或负责人身份证、手机号、经营状况等资料，您应当保证资料的真实性、完整性、合法性。我司将根据您的委托，按照管辖地市场监督管理部门的规定，及时为您办理年报报送的相关事宜。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;四、在您提交年报报送资料后，我司将在15个工作日完成年报报送工作，报送成功的标志是您的年报信息在&ldquo;全国企业信用信息公示系统&rdquo;中公示或在辖区市场监管部门网站公示。如在15个工作日内未能办结的，我司将根据您的要求或者继续办理或者全额退款。要求退款的，我司将在之后5个工作日内完成;要求继续办理的，您将不追究我司在承诺时间内未能办结的任何责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;五、年报报送成功或我司向您全额退款即意味着您与我司委托代理关系终止，本协议亦随即终止。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;六、因年报的报送截止日期为每年的6月30日，故我司原则上不再受理6月20日以后的委托。如您仍选择委托我司办理年报代报的，则意味着您自愿承担在6月30日之前报送不成功的风险，届时因未在截止时间前报送成功所产生的一切法律后果(包括但不限于经营异常、行政处罚等)由您自行承担，我司不因此承担任何责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;七、我司受理您的年报报送委托后，将忠实履行代理义务。如您在年报代报过程中有任何异议，均可通过本协议第九条联系方式向我司反映，我司将及时进行处理。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;八、针对为完成年报报送您所提交的资料(见本协议第三条)，您知晓并同意按以下方式处理：</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;1、凡报送成功的，您所提交的资料将保存至下一年度的年报报送截止日，但您选择&ldquo;不公开&rdquo;的内容我司将不做保存；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;2、已提交年报资料但报送未成功或您要求终止委托关系而全额退款的，我司仅保存您的联系方式(含手机号)，其他资料不做保存；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;3、凡我司保存的资料，我司将采取严格的保密措施，未经您同意，不公开、不向任何第三方提供，所保存的联系方式也仅用于与您本人联系。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;4、因我司违背上述约定而引发的一切后果由我司承担。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;九、我司为您提供人工电话服务，服务电话: 15668132677;您可通过该电话咨询业务、了解进程、反映问题、进行投诉等。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;十、如我司未违背本协议约定，您不得向任何第三方发布、提供有损我司利益、名誉的信息，否则我司有权追究您的法律责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;十一、如您与我司就本协议内容或其执行发生任何争议，双方应尽力友好协商解决:协商不成时，应向协议签订地有管辖权的人民法院提起诉讼。</span></p>'  WHERE  `name` = 'normal_content' [ RunTime:0.008724s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;一、本协议将成为您与我司就办理年报报送事宜所签署的具有法律约束力的文件。您已充分阅读、理解并接受本协议的全部内容，知悉支付年报代报费用即表示您委托我司全权为您办理年报报送事宜，我司将通过网络在线方式为您提供年报代报服务</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;二、您知悉，按照《企业信息公示暂行条例》《个体工商户年度报告暂行办法》等法规文件，报送年报是您的法定义务。您也知悉，通过市场监督管理部门渠道报送年报是免费的，通过我司代办年报报送您需向我司支付298元代报费用。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;三、您知悉，为办理年报报送之必要，您需要向我司提供包括但不限于法定代表人或负责人身份证、手机号、经营状况等资料，您应当保证资料的真实性、完整性、合法性。我司将根据您的委托，按照管辖地市场监督管理部门的规定，及时为您办理年报报送的相关事宜。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;四、在您提交年报报送资料后，我司将在15个工作日完成年报报送工作，报送成功的标志是您的年报信息在&ldquo;全国企业信用信息公示系统&rdquo;中公示或在辖区市场监管部门网站公示。如在15个工作日内未能办结的，我司将根据您的要求或者继续办理或者全额退款。要求退款的，我司将在之后5个工作日内完成;要求继续办理的，您将不追究我司在承诺时间内未能办结的任何责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;五、年报报送成功或我司向您全额退款即意味着您与我司委托代理关系终止，本协议亦随即终止。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;六、因年报的报送截止日期为每年的6月30日，故我司原则上不再受理6月20日以后的委托。如您仍选择委托我司办理年报代报的，则意味着您自愿承担在6月30日之前报送不成功的风险，届时因未在截止时间前报送成功所产生的一切法律后果(包括但不限于经营异常、行政处罚等)由您自行承担，我司不因此承担任何责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;七、我司受理您的年报报送委托后，将忠实履行代理义务。如您在年报代报过程中有任何异议，均可通过本协议第九条联系方式向我司反映，我司将及时进行处理。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;八、针对为完成年报报送您所提交的资料(见本协议第三条)，您知晓并同意按以下方式处理：</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;1、凡报送成功的，您所提交的资料将保存至下一年度的年报报送截止日，但您选择&ldquo;不公开&rdquo;的内容我司将不做保存；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;2、已提交年报资料但报送未成功或您要求终止委托关系而全额退款的，我司仅保存您的联系方式(含手机号)，其他资料不做保存；</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;3、凡我司保存的资料，我司将采取严格的保密措施，未经您同意，不公开、不向任何第三方提供，所保存的联系方式也仅用于与您本人联系。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;4、因我司违背上述约定而引发的一切后果由我司承担。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;九、我司为您提供人工电话服务，服务电话: 166666666666;您可通过该电话咨询业务、了解进程、反映问题、进行投诉等。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;十、如我司未违背本协议约定，您不得向任何第三方发布、提供有损我司利益、名誉的信息，否则我司有权追究您的法律责任。</span></p>
+<p><span style="color: rgb(128, 128, 128);">&nbsp; &nbsp; &nbsp; &nbsp;十一、如您与我司就本协议内容或其执行发生任何争议，双方应尽力友好协商解决:协商不成时，应向协议签订地有管辖权的人民法院提起诉讼。</span></p>'  WHERE  `name` = 'special_content' [ RunTime:0.003893s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '13952254991'  WHERE  `name` = 'service_telephone' [ RunTime:0.009913s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'key' [ RunTime:0.003266s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'secretkey' [ RunTime:0.003833s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1'  WHERE  `name` = 'type' [ RunTime:0.004074s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1624596206'  WHERE  `name` = 'mch_id' [ RunTime:0.004786s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'zccccccccccccccccccccccccccccccc'  WHERE  `name` = 'pay_secretkey' [ RunTime:0.003473s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'orgid' [ RunTime:0.003928s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'mno' [ RunTime:0.006809s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'privatekey' [ RunTime:0.003352s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'sxfpublic' [ RunTime:0.003229s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://ss.xyaa.vip/uploads/admin/202310/6533938372d97.png'  WHERE  `name` = 'topleft_logo' [ RunTime:0.003246s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = 'https://ss.xyaa.vip/uploads/admin/202310/653393883d2cd.png'  WHERE  `name` = 'topright_logo' [ RunTime:0.004329s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '云欣企业管理，为经营主体提供年报代报服务的平台代报服务费200元，如办理不成功全额退款。'  WHERE  `name` = 'specialprompt' [ RunTime:0.003132s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '云欣企业管理，为经营主体提供年报代报服务的平台代报服务费298元，如办理不成功全额退款。'  WHERE  `name` = 'normalprompt' [ RunTime:0.003320s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '云欣企业管理由国家中小企业公共服务示范平台&中国中小企业协会信服委运营'  WHERE  `name` = 'bottom_copyright' [ RunTime:0.003470s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'article_link' [ RunTime:0.003647s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '本平台提供年报代办服务，方便快捷，如办理不成功可全额退款。'  WHERE  `name` = 'top_word' [ RunTime:0.006976s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'cert_path' [ RunTime:0.003497s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'key_path' [ RunTime:0.003451s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'hy_apiid' [ RunTime:0.004182s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'hy_apikey' [ RunTime:0.003218s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '1'  WHERE  `name` = 'hy_type' [ RunTime:0.003280s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = ''  WHERE  `name` = 'shoptop_logo' [ RunTime:0.005394s ]
+[2023-10-25T22:27:30+08:00][sql] UPDATE `nianbao_base_config`  SET `data` = '<p>48阿达</p>'  WHERE  `name` = 'agreementcontent' [ RunTime:0.003409s ]
+[2023-10-25T22:27:59+08:00][sql] CONNECT:[ UseTime:0.000325s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:27:59+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_node` [ RunTime:0.000519s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT `node_id`,`pid`,`title`,`status`,`icon`,`sortid`,`path` FROM `nianbao_node` WHERE  `status` = 1  AND `type` = 1 ORDER BY `sortid` ASC [ RunTime:0.000323s ]
+[2023-10-25T22:27:59+08:00][sql] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:27:59+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000713s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-01 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000346s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-02 00:00:00' AND '2023-10-02 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000224s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-03 00:00:00' AND '2023-10-03 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000220s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-04 00:00:00' AND '2023-10-04 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-05 00:00:00' AND '2023-10-05 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000192s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-06 00:00:00' AND '2023-10-06 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-07 00:00:00' AND '2023-10-07 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-08 00:00:00' AND '2023-10-08 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000200s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-09 00:00:00' AND '2023-10-09 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-10 00:00:00' AND '2023-10-10 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000175s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-11 00:00:00' AND '2023-10-11 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-12 00:00:00' AND '2023-10-12 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-13 00:00:00' AND '2023-10-13 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000175s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-14 00:00:00' AND '2023-10-14 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-15 00:00:00' AND '2023-10-15 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000222s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-16 00:00:00' AND '2023-10-16 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000197s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-17 00:00:00' AND '2023-10-17 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-18 00:00:00' AND '2023-10-18 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-19 00:00:00' AND '2023-10-19 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-20 00:00:00' AND '2023-10-20 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-21 00:00:00' AND '2023-10-21 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000198s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-22 00:00:00' AND '2023-10-22 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-23 00:00:00' AND '2023-10-23 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-24 00:00:00' AND '2023-10-24 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000179s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-26 00:00:00' AND '2023-10-26 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-27 00:00:00' AND '2023-10-27 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-28 00:00:00' AND '2023-10-28 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-29 00:00:00' AND '2023-10-29 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-30 00:00:00' AND '2023-10-30 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000204s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-31 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T22:27:59+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_member` [ RunTime:0.000403s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'  LIMIT 1 [ RunTime:0.000214s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-01 00:00:00' AND '2023-10-31 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000196s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_member` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'  LIMIT 1 [ RunTime:0.000172s ]
+[2023-10-25T22:27:59+08:00][sql] SELECT SUM(`total_price`) AS think_sum FROM `nianbao_order` WHERE  `create_time` BETWEEN '2023-10-25 00:00:00' AND '2023-10-25 23:59:59'   AND `is_pay` = 1 LIMIT 1 [ RunTime:0.000187s ]
+[2023-10-25T22:28:03+08:00][sql] CONNECT:[ UseTime:0.000339s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-10-25T22:28:03+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000475s ]
+[2023-10-25T22:28:03+08:00][sql] SELECT `data`,`name` FROM `nianbao_base_config` [ RunTime:0.000260s ]

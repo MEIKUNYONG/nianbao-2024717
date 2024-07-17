@@ -1,0 +1,9 @@
+[2023-11-05T00:29:06+08:00][sql] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-05T00:29:06+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_base_config` [ RunTime:0.000690s ]
+[2023-11-05T00:29:06+08:00][sql] SELECT * FROM `nianbao_base_config` [ RunTime:0.000325s ]
+[2023-11-05T00:29:06+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_node` [ RunTime:0.000479s ]
+[2023-11-05T00:29:06+08:00][sql] SELECT `node_id`,`pid`,`title`,`status`,`icon`,`sortid`,`path` FROM `nianbao_node` WHERE  `status` = 1  AND `type` = 1 ORDER BY `sortid` ASC [ RunTime:0.000350s ]
+[2023-11-05T00:29:07+08:00][sql] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=nianbao;charset=utf8
+[2023-11-05T00:29:07+08:00][sql] SHOW FULL COLUMNS FROM `nianbao_order` [ RunTime:0.000766s ]
+[2023-11-05T00:29:07+08:00][sql] SELECT COUNT(*) AS think_count FROM `nianbao_order` WHERE  `is_pay` = 1 LIMIT 1 [ RunTime:0.000437s ]
+[2023-11-05T00:29:07+08:00][sql] SELECT * FROM `nianbao_order` WHERE  `is_pay` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000509s ]
